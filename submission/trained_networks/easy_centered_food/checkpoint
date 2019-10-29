@@ -1,0 +1,4 @@
+model_checkpoint_path: "easy_centered_food.ckpt"
+all_model_checkpoint_paths: "easy_centered_food-1024"
+all_model_checkpoint_paths: "easy_centered_food-2048"
+all_model_checkpoint_paths: "easy_centered_food.ckpt"

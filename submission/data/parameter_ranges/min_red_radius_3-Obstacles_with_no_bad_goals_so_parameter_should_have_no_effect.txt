@@ -1,0 +1,19 @@
+parameter being varied is: min_red_radius, range goes from 1.00 to 31.00, number of episodes = 30, config: 3-Obstacles
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, min_red_radius
+ 22.62,  30,  0, 228, 1.00
+  6.73,  22,  8, 481, 3.00
+ 22.49,  29,  1, 205, 5.00
+ 21.67,  29,  1, 230, 7.00
+ 18.43,  27,  3, 313, 9.00
+ 19.63,  28,  2, 272, 11.00
+ 14.18,  25,  5, 336, 13.00
+ 14.81,  26,  4, 366, 15.00
+ 18.48,  27,  3, 265, 17.00
+ 19.36,  27,  3, 251, 19.00
+ 17.27,  26,  4, 286, 21.00
+ 15.88,  27,  3, 349, 23.00
+ 16.30,  27,  3, 336, 25.00
+ 13.88,  25,  5, 367, 27.00
+ 17.86,  28,  2, 312, 29.00
+ 17.97,  27,  3, 296, 31.00
+ 17.35,  27,  3, 306, 15.50, overall averages

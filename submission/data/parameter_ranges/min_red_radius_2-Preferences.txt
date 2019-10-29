@@ -1,0 +1,19 @@
+parameter being varied is: min_red_radius, range goes from 1.00 to 31.00, number of episodes = 30, config: 2-Preferences
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, min_red_radius
+150.39,  58,  0,  51, 1.00
+145.64,  53,  2,  65, 3.00
+140.72,  56,  1,  55, 5.00
+135.41,  58,  1,  60, 7.00
+152.25,  57,  0,  49, 9.00
+145.49,  55,  0,  47, 11.00
+132.72,  52,  0,  51, 13.00
+147.11,  59,  0,  52, 15.00
+164.32,  56,  2,  57, 17.00
+124.87,  52,  2,  55, 19.00
+143.12,  54,  0,  46, 21.00
+136.21,  55,  0,  44, 23.00
+154.62,  59,  0,  44, 25.00
+141.83,  56,  0,  47, 27.00
+155.35,  58,  0,  51, 29.00
+129.99,  55,  1,  48, 31.00
+143.75,  56,  1,  51, 15.50, overall averages

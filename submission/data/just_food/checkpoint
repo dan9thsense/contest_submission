@@ -1,0 +1,6 @@
+model_checkpoint_path: "just_food.ckpt"
+all_model_checkpoint_paths: "just_food-1024"
+all_model_checkpoint_paths: "just_food-2048"
+all_model_checkpoint_paths: "just_food-3072"
+all_model_checkpoint_paths: "just_food-4096"
+all_model_checkpoint_paths: "just_food.ckpt"

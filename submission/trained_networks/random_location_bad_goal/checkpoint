@@ -1,0 +1,6 @@
+model_checkpoint_path: "random_location_bad_goal.ckpt"
+all_model_checkpoint_paths: "random_location_bad_goal-64"
+all_model_checkpoint_paths: "random_location_bad_goal-128"
+all_model_checkpoint_paths: "random_location_bad_goal-192"
+all_model_checkpoint_paths: "random_location_bad_goal-256"
+all_model_checkpoint_paths: "random_location_bad_goal.ckpt"

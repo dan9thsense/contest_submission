@@ -1,0 +1,2 @@
+model_checkpoint_path: "easy_food_9_actions-1024"
+all_model_checkpoint_paths: "easy_food_9_actions-1024"

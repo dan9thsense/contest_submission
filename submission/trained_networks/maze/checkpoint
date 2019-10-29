@@ -1,0 +1,4 @@
+model_checkpoint_path: "maze.ckpt"
+all_model_checkpoint_paths: "maze-1024"
+all_model_checkpoint_paths: "maze-2048"
+all_model_checkpoint_paths: "maze.ckpt"

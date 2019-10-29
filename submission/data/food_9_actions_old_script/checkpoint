@@ -1,0 +1,4 @@
+model_checkpoint_path: "food_9_actions.ckpt"
+all_model_checkpoint_paths: "food_9_actions-1024"
+all_model_checkpoint_paths: "food_9_actions-2048"
+all_model_checkpoint_paths: "food_9_actions.ckpt"

@@ -1,0 +1,19 @@
+parameter being varied is: min_red_radius, range goes from 1.00 to 31.00, number of episodes = 30, config: temporary_blackout_with_wall_and_bad_goal
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, min_red_radius
+ 52.30,  21,  5, 302, 1.00
+ 38.81,  22,  8, 379, 3.00
+ 39.95,  19,  9, 441, 5.00
+ 61.92,  24,  4, 238, 7.00
+ 53.38,  24,  2, 287, 9.00
+ 36.02,  21,  7, 342, 11.00
+ 46.12,  22,  6, 278, 13.00
+ 38.05,  17,  3, 280, 15.00
+ 28.61,  19,  9, 421, 17.00
+ 53.71,  24,  6, 317, 19.00
+ 64.52,  25,  5, 326, 21.00
+ 50.54,  21,  3, 198, 23.00
+ 41.69,  19,  5, 323, 25.00
+ 48.69,  20,  8, 368, 27.00
+ 40.12,  22,  2, 242, 29.00
+ 48.74,  18,  4, 294, 31.00
+ 46.45,  21,  5, 315, 15.50, overall averages

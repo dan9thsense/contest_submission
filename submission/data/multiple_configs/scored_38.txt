@@ -1,0 +1,18 @@
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.35,  30,  0,  90, 1-Food
+132.26,  56,  2,  59, 2-Preferences
+ 15.52,  27,  3, 376, 3-Obstacles
+-12.53,   5,  1, 278, 4-Avoidance
+ 34.80,  51,  7, 277, 5-SpatialReasoning
+ 34.24,  50,  8, 253, 6-Generalization
+ 70.97,  29,  1, 188, 7-InternalMemory
+ 64.39,  30,  0, 159, temporary_blackout
+ 34.04,  18, 12, 300, permanent_blackout
+ 31.64,  21,  9, 233, permanent_blackout_with_wall_and_bad_goal
+  1.53,  28,  2, 329, hot_zone
+ 29.38,  16,  0, 268, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ -0.63,  23,  7, 381, objectManipulation
+ 21.52,  19, 11, 209, allObjectsRandom
+ 36.76,  29,  4, 232, overall averages

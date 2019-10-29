@@ -1,0 +1,47 @@
+2.44, .074
+4.6, .287
+6.51, .624
+8.2, 1.07
+9.7, 1.61
+11.02, 2.24
+12.19, 2.94
+13.23, 3.71
+14.14, 4.54
+14.95, 5.42
+15.67, 6.35
+16.3, 7.32
+16.87, 8.33
+17.36, 9.36
+17.80, 10.42
+18.19, 11.52
+18.53, 12.63
+18.84, 13.76
+19.11, 14.91
+19.35, 16.08
+19.56, 17.26
+19.74, 18.45
+19.91, 19.65
+20.05, 20.86
+20.30, 23.31
+20.40, 24.56
+20.49, 25.78
+20.57, 27.02
+20.63, 28.27
+20.70, 29.52
+20.75, 30.78
+20.80, 32.04
+20.85, 33.30
+20.88, 34.56
+20.92, 35.83
+20.95, 37.10
+20.97, 38.37
+0.0, 39.00  Distance increases with 0 velocity because distance is the average of the current and previous velocities * delta_time
+
+These numbers are velocity, distance when moving forward at each step all the way across the arena.
+
+Note that the distance is the distance moved by the agent, goes from 0 to 39
+If these were in arena coordinates, they would go from 0.5 to 39.5, since the agent's radius is 0.5 meters.  The distance is the average of the current and previous velocities * delta_time.
+#DELTA_TIMESTEP = 0.0595 #this value is from the issues page
+DELTA_TIMESTEP = 0.0606 #this value was determined locally and is the one we use.
+
+It takes 38 steps to get fully across.  Halfway at 24 steps.  By the end, each step moves 1.27 meters.

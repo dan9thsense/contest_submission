@@ -1,0 +1,2164 @@
+agent_scored_24.py
+total reward for all runs = 103.92, average reward per run = 3.46
+number of runs with positive reward = 28, number of runs with negative reward =  2
+average number of steps until reward = 85.28846153846153
+total reward final value = 103.92, total reward count = 50.00
+number of runs with no reward =  2
+number of forward moves =  3, neutral moves = 47, backward moves =  0
+
+
+NUM_INITIAL_INSPECTION_STEPS = 52
+#when we cannot see a target, we will turn to look around for up to this many turns, at 6 degrees per turn
+MAX_NUM_NO_TARGET_TURNS_LOTS_OF_TIME = 52
+MAX_NUM_NO_TARGET_TURNS = 40
+MAX_NUM_NO_TARGET_TURNS_NEAR_TIMEOUT = 25
+#when we cannot see a target and we have done all the turns, we will move forward up to this many times
+#before going back to turning
+MAX_NUM_NO_TARGET_MOVES_LOTS_OF_TIME = 50
+MAX_NUM_NO_TARGET_MOVES = 35
+MAX_NUM_NO_TARGET_MOVES_NEAR_TIMEOUT = 20
+MIN_RED_RADIUS = 25.0  #smallest radius that we will use to avoid red targets
+RADIUS_HYSTERESIS = 10.0 #how much the green or gold radius has to exceed the other for us to swap goals
+
+total reward for all runs = 107.83, average reward per run = 3.59
+number of runs with positive reward = 28, number of runs with negative reward =  2
+average number of steps until reward = 81.62264150943396
+total reward final value = 107.83, total reward count = 51.00
+number of runs with no reward =  2
+number of forward moves =  5, neutral moves = 46, backward moves =  0
+
+above and no backward moves except for red
+total reward for all runs = 108.84, average reward per run = 3.63
+number of runs with positive reward = 29, number of runs with negative reward =  1
+average number of steps until reward = 82.05660377358491
+total reward final value = 108.84, total reward count = 52.00
+number of runs with no reward =  1
+number of forward moves =  9, neutral moves = 43, backward moves =  0
+
+no backward moves, even for red
+total reward for all runs = 108.62, average reward per run = 3.62
+number of runs with positive reward = 29, number of runs with negative reward =  1
+average number of steps until reward = 83.09433962264151
+total reward final value = 108.62, total reward count = 52.00
+number of runs with no reward =  1
+number of forward moves = 10, neutral moves = 42, backward moves =  0
+
+avoid green until time remaining < 100
+total reward for all runs = 95.20, average reward per run = 3.17
+number of runs with positive reward = 25, number of runs with negative reward =  5
+average number of steps until reward = 91.34545454545454
+total reward final value = 95.20, total reward count = 50.00
+number of runs with no reward =  5
+number of forward moves =  6, neutral moves = 44, backward moves =  0
+
+
+
+
+
+
+TIMESTEPS = 250
+EPSILON = 0.01
+NUM_INITIAL_INSPECTION_STEPS = 52
+#when we cannot see a target, we will turn to look around for up to this many turns, at 6 degrees per turn
+MAX_NUM_NO_TARGET_TURNS_LOTS_OF_TIME = 52
+MAX_NUM_NO_TARGET_TURNS = 45
+MAX_NUM_NO_TARGET_TURNS_NEAR_TIMEOUT = 25
+#when we cannot see a target and we have done all the turns, we will move forward up to this many times
+#before going back to turning
+MAX_NUM_NO_TARGET_MOVES_LOTS_OF_TIME = 50
+MAX_NUM_NO_TARGET_MOVES = 35
+MAX_NUM_NO_TARGET_MOVES_NEAR_TIMEOUT = 20
+MAX_NUM_STEPS_TO_ACCEPT_GREEN_TARGET = 200
+MAX_NUM_STEPS_TO_REDUCE_TURNS = 100
+[{'Total': 22.666666666666668, 'C1': 16.0, 'C2': 12.0, 'C3': 2.0, 'C4': 11.0, 'C5': 0.0, 'C6': 13.0, 'C7': 9.0, 'C8': 1.0, 'C9': 4.0, 'C10': 0.0}]
+total reward for all runs = 98.77, average reward per run = 3.29
+number of runs with positive reward = 25, number of runs with negative reward =  5
+average number of steps until reward = 85.0
+total reward final value = 98.77, total reward count = 46.00
+number of runs with no reward =  5
+number of forward moves =  3, neutral moves = 42, backward moves =  1
+ratio of forward moves to backward moves = 3.00
+
+
+
+
+TIMESTEPS = 250
+EPSILON = 0.01
+NUM_INITIAL_INSPECTION_STEPS = 52
+#when we cannot see a target, we will turn to look around for up to this many turns, at 6 degrees per turn
+MAX_NUM_NO_TARGET_TURNS_LOTS_OF_TIME = 28
+MAX_NUM_NO_TARGET_TURNS = 25
+MAX_NUM_NO_TARGET_TURNS_NEAR_TIMEOUT = 23
+#when we cannot see a target and we have done all the turns, we will move forward up to this many times
+#before going back to turning
+MAX_NUM_NO_TARGET_MOVES_LOTS_OF_TIME = 50
+MAX_NUM_NO_TARGET_MOVES = 35
+MAX_NUM_NO_TARGET_MOVES_NEAR_TIMEOUT = 20
+MAX_NUM_STEPS_TO_ACCEPT_GREEN_TARGET = 200
+MAX_NUM_STEPS_TO_REDUCE_TURNS = 100
+MIN_RED_RADIUS = 25.0  #smallest radius that we will use to avoid targets
+MIN_GREEN_RADIUS = 25.0  #smallest radius that we will use to avoid targets
+RADIUS_HYSTERESIS = 10.0 #how much the green or gold radius has to exceed the other for us to swap goals
+WATCH_IMAGE = True
+total reward for all runs = 106.35, average reward per run = 3.55
+number of runs with positive reward = 29, number of runs with negative reward =  1
+average number of steps until reward = 76.75471698113208
+total reward final value = 106.35, total reward count = 50.00
+number of runs with no reward =  1
+number of forward moves =  5, neutral moves = 47, backward moves =  0
+
+TIMESTEPS = 250
+EPSILON = 0.01
+NUM_INITIAL_INSPECTION_STEPS = 52
+#when we cannot see a target, we will turn to look around for up to this many turns, at 6 degrees per turn
+MAX_NUM_NO_TARGET_TURNS_LOTS_OF_TIME = 28
+MAX_NUM_NO_TARGET_TURNS = 25
+MAX_NUM_NO_TARGET_TURNS_NEAR_TIMEOUT = 23
+#when we cannot see a target and we have done all the turns, we will move forward up to this many times
+#before going back to turning
+MAX_NUM_NO_TARGET_MOVES_LOTS_OF_TIME = 50
+MAX_NUM_NO_TARGET_MOVES = 35
+MAX_STEPS_TO_ACCEPT_GREEN = 200
+MAX_NUM_NO_TARGET_MOVES_NEAR_TIMEOUT = 20
+
+MAX_NUM_STEPS_TO_REDUCE_TURNS = 100
+MIN_RED_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+MIN_GREEN_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+RADIUS_HYSTERESIS = 10.0 #how much the green or gold radius has to exceed the other for us to swap goals
+
+total reward for all runs = 107.43, average reward per run = 3.58
+number of runs with positive reward = 27, number of runs with negative reward =  3
+average number of steps until reward = 77.81481481481481
+total reward final value = 107.43, total reward count = 51.00
+number of runs with no reward =  3
+number of forward moves =  6, neutral moves = 44, backward moves =  1
+ratio of forward moves to backward moves = 6.00
+
+same setup, but  t = 500
+total reward for all runs = 107.06, average reward per run = 3.57
+number of runs with positive reward = 27, number of runs with negative reward =  3
+average number of steps until reward = 191.14285714285714
+total reward final value = 107.06, total reward count = 51.00
+number of runs with no reward =  3
+number of forward moves =  5, neutral moves = 48, backward moves =  0
+
+
+
+#we now move instead of turn if the initial inspection does not turn up a target.
+TIMESTEPS = 250
+EPSILON = 0.01
+NUM_INITIAL_INSPECTION_STEPS = 52
+#when we cannot see a target, we will turn to look around for up to this many turns, at 6 degrees per turn
+MAX_NUM_NO_TARGET_TURNS_LOTS_OF_TIME = 50
+MAX_NUM_NO_TARGET_TURNS = 45
+MAX_NUM_NO_TARGET_TURNS_NEAR_TIMEOUT = 25
+#when we cannot see a target and we have done all the turns, we will move forward up to this many times
+#before going back to turning
+MAX_NUM_NO_TARGET_MOVES_LOTS_OF_TIME = 40
+MAX_NUM_NO_TARGET_MOVES = 35
+MAX_STEPS_TO_ACCEPT_GREEN = 200
+MAX_NUM_NO_TARGET_MOVES_NEAR_TIMEOUT = 20
+
+MAX_NUM_STEPS_TO_REDUCE_TURNS = 100
+MIN_RED_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+MIN_GREEN_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+RADIUS_HYSTERESIS = 10.0 #how much the green or gold radius has to exceed the other for us to swap goals
+total reward for all runs = 112.11, average reward per run = 3.74
+number of runs with positive reward = 28, number of runs that timed out =  2
+average number of steps until reward = 66.87037037037037
+total reward final value = 112.11, total reward count = 52.00
+number of runs that timed out =  2
+number of forward moves =  8, neutral moves = 43, backward moves =  1
+ratio of forward moves to backward moves = 8.00
+
+timesteps = 500, same setup
+total reward for all runs = 99.61, average reward per run = 3.32
+number of runs with positive reward = 27, number of runs that timed out =  3
+average number of steps until reward = 175.6909090909091
+total reward final value = 99.61, total reward count = 48.00
+number of runs that timed out =  3
+number of forward moves =  2, neutral moves = 49, backward moves =  1
+ratio of forward moves to backward moves = 2.00
+
+
+
+
+TIMESTEPS = 250
+EPSILON = 0.01
+NUM_INITIAL_INSPECTION_STEPS = 52
+#when we cannot see a target, we will turn to look around for up to this many turns, at 6 degrees per turn
+MAX_NUM_NO_TARGET_TURNS_LOTS_OF_TIME = 50
+MAX_NUM_NO_TARGET_TURNS = 45
+MAX_NUM_NO_TARGET_TURNS_NEAR_TIMEOUT = 25
+#when we cannot see a target and we have done all the turns, we will move forward up to this many times
+#before going back to turning
+MAX_NUM_NO_TARGET_MOVES_LOTS_OF_TIME = 40
+MAX_NUM_NO_TARGET_MOVES = 35
+MAX_STEPS_TO_ACCEPT_GREEN = 200
+MAX_NUM_NO_TARGET_MOVES_NEAR_TIMEOUT = 20
+
+MAX_NUM_STEPS_TO_REDUCE_TURNS = 0
+MIN_RED_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+MIN_GREEN_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+RADIUS_HYSTERESIS = 10.0 #how much the green or gold radius has to exceed the other for us to swap goals
+
+total reward for all runs = 121.42, average reward per run = 4.05
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 64.83333333333333
+total reward final value = 121.42, total reward count = 53.00
+number of runs that timed out =  1
+number of forward moves =  9, neutral moves = 44, backward moves =  0
+[{'Total': 21.333333333333332, 'C1': 16.0, 'C2': 14.0, 'C3': 2.0, 'C4': 8.0, 'C5': 4.0, 'C6': 11.0, 'C7': 4.0, 'C8': 0.0, 'C9': 5.0, 'C10': 0.0}]
+
+
+
+
+
+
+TIMESTEPS = 250
+EPSILON = 0.01
+NUM_INITIAL_INSPECTION_STEPS = 52
+#when we cannot see a target, we will turn to look around for up to this many turns, at 6 degrees per turn
+MAX_NUM_NO_TARGET_TURNS_LOTS_OF_TIME = 50
+MAX_NUM_NO_TARGET_TURNS = 50
+MAX_NUM_NO_TARGET_TURNS_NEAR_TIMEOUT = 50
+#when we cannot see a target and we have done all the turns, we will move forward up to this many times
+#before going back to turning
+MAX_NUM_NO_TARGET_MOVES_LOTS_OF_TIME = 40
+MAX_NUM_NO_TARGET_MOVES = 35
+MAX_STEPS_TO_ACCEPT_GREEN = 250
+MAX_NUM_NO_TARGET_MOVES_NEAR_TIMEOUT = 20
+
+MAX_NUM_STEPS_TO_REDUCE_TURNS = 0
+MIN_RED_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+MIN_GREEN_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+RADIUS_HYSTERESIS = 10.0 #how much the green or gold radius has to exceed the other for us to swap goals
+
+for 1-Food.yaml:
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 94.72413793103448
+total reward final value = 57.66, total reward count = 29.00
+number of runs that timed out =  0
+number of forward moves =  3, neutral moves = 26, backward moves =  0
+for 2-Preferences
+total reward for all runs = 119.20, average reward per run = 3.97
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 66.13461538461539
+total reward final value = 119.20, total reward count = 51.00
+number of runs that timed out =  1
+number of forward moves =  8, neutral moves = 43, backward moves =  0
+
+for 2-Preferences:
+total reward for all runs = 119.84, average reward per run = 3.99
+number of runs with positive reward = 27, number of runs that timed out =  3
+average number of steps until reward = 68.90196078431373
+total reward final value = 119.84, total reward count = 48.00
+number of runs that timed out =  3
+number of forward moves =  2, neutral moves = 45, backward moves =  1
+ratio of forward moves to backward moves = 2.00
+
+for 3-Obstacles:
+total reward for all runs = 10.04, average reward per run = 0.33
+number of runs with positive reward = 20, number of runs that timed out = 10
+average number of steps until reward = 153.27586206896552
+total reward final value = 10.04, total reward count = 19.00
+number of runs that timed out = 10
+number of forward moves =  3, neutral moves = 13, backward moves =  3
+ratio of forward moves to backward moves = 1.00
+
+
+for 5-SpatialReasoning
+total reward for all runs = 27.12, average reward per run = 0.90
+number of runs with positive reward = 12, number of runs that timed out = 18
+average number of steps until reward = 115.61538461538461
+total reward final value = 27.12, total reward count = 34.00
+number of runs that timed out = 18
+number of forward moves = 18, neutral moves = 15, backward moves =  1
+ratio of forward moves to backward moves = 18.00
+
+for 6-Generalization
+total reward for all runs = 24.98, average reward per run = 0.83
+number of runs with positive reward =  9, number of runs that timed out = 21
+average number of steps until reward = 128.22916666666666
+
+
+
+TIMESTEPS = 250
+EPSILON = 0.01
+NUM_INITIAL_INSPECTION_STEPS = 52
+#when we cannot see a target, we will turn to look around for up to this many turns, at 6 degrees per turn
+MAX_NUM_NO_TARGET_TURNS_LOTS_OF_TIME = 50
+MAX_NUM_NO_TARGET_TURNS = 50
+MAX_NUM_NO_TARGET_TURNS_NEAR_TIMEOUT = 50
+#when we cannot see a target and we have done all the turns, we will move forward up to this many times
+#before going back to turning
+MAX_NUM_NO_TARGET_MOVES_LOTS_OF_TIME = 40
+MAX_NUM_NO_TARGET_MOVES = 35
+MAX_STEPS_TO_ACCEPT_GREEN = 250
+MAX_NUM_NO_TARGET_MOVES_NEAR_TIMEOUT = 20
+
+MAX_NUM_STEPS_TO_REDUCE_TURNS = 0
+MIN_RED_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+MIN_GREEN_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+RADIUS_HYSTERESIS = 10.0 #how much the green or gold radius has to exceed the other for us to swap goals
+
+
+[{'Total': 28.0, 'C1': 20.0, 'C2': 16.0, 'C3': 4.0, 'C4': 9.0, 'C5': 5.0, 'C6': 15.0, 'C7': 6.0, 'C8': 0.0, 'C9': 9.0, 'C10': 0.0}]
+
+for 7-InternalMemory
+total reward for all runs = 28.86, average reward per run = 0.96
+number of runs with positive reward = 10, number of runs that timed out = 20
+average number of steps until reward = 207.06896551724137
+total reward final value = 28.86, total reward count = 9.00
+number of runs that timed out = 20
+number of forward moves =  2, neutral moves =  5, backward moves =  2
+ratio of forward moves to backward moves = 1.00
+
+with blackouts detected and movement based on the last visible image:
+total reward for all runs = 48.06, average reward per run = 1.60
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 179.6551724137931
+total reward final value = 48.06, total reward count = 17.00
+number of runs that timed out = 12
+number of forward moves =  5, neutral moves = 12, backward moves =  0
+
+with blackouts detected and movement stopped during them:
+total reward for all runs = 57.48, average reward per run = 1.92
+number of runs with positive reward = 21, number of runs that timed out =  9
+average number of steps until reward = 103.0
+total reward final value = 57.48, total reward count = 20.00
+number of runs that timed out =  9
+number of forward moves =  5, neutral moves = 15, backward moves =  0
+
+total reward for all runs = 55.80, average reward per run = 1.86
+number of runs with positive reward = 21, number of runs that timed out =  9
+average number of steps until reward = 195.10344827586206
+total reward final value = 55.80, total reward count = 20.00
+number of runs that timed out =  9
+number of forward moves =  7, neutral moves = 13, backward moves =  0
+
+[{'Total': 27.333333333333332, 'C1': 20.0, 'C2': 17.0, 'C3': 3.0, 'C4': 9.0, 'C5': 3.0, 'C6': 15.0, 'C7': 8.0, 'C8': 0.0, 'C9': 7.0, 'C10': 0.0}]
+
+
+allow green food right from the start, to reduce timeouts
+total reward for all runs = 63.44, average reward per run = 2.11
+number of runs with positive reward = 27, number of runs that timed out =  3
+average number of steps until reward = 155.82758620689654
+total reward final value = 63.44, total reward count = 26.00
+number of runs that timed out =  3
+number of forward moves =  8, neutral moves = 18, backward moves =  0
+
+[{'Total': 28.333333333333332, 'C1': 22.0, 'C2': 16.0, 'C3': 2.0, 'C4': 6.0, 'C5': 7.0, 'C6': 13.0, 'C7': 7.0, 'C8': 2.0, 'C9': 10.0, 'C10': 0.0}]
+
+
+continue with forward move during blackout if green or gold target is in view
+total reward for all runs = 59.91, average reward per run = 2.00
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 120.3103448275862
+
+[{'Total': 26.666666666666668, 'C1': 19.0, 'C2': 14.0, 'C3': 6.0, 'C4': 6.0, 'C5': 5.0, 'C6': 14.0, 'C7': 6.0, 'C8': 1.0, 'C9': 8.0, 'C10': 1.0}]
+
+
+t = 500
+total reward for all runs = 64.19, average reward per run = 2.14
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 284.9655172413793
+total reward final value = 64.19, total reward count = 28.00
+number of runs that timed out =  1
+number of forward moves = 16, neutral moves = 12, backward moves =  0
+
+now watching for permanent blackout
+with obstacles:
+total reward for all runs = 23.46, average reward per run = 0.78
+number of runs with positive reward = 14, number of runs that timed out = 16
+average number of steps until reward = 311.6896551724138
+[{'Total': 26.666666666666668, 'C1': 19.0, 'C2': 13.0, 'C3': 4.0, 'C4': 6.0, 'C5': 5.0, 'C6': 16.0, 'C7': 9.0, 'C8': 2.0, 'C9': 6.0, 'C10': 0.0}]
+
+
+
+combined permanent blackout code with 28.333 code
+t=250, 1-Food
+total reward for all runs = 68.70, average reward per run = 2.29
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 111.65517241379311
+total reward final value = 68.70, total reward count = 29.00
+number of runs that timed out =  0
+number of forward moves =  2, neutral moves = 27, backward moves =  0
+
+2-Preferences
+total reward for all runs = 128.05, average reward per run = 4.27
+number of runs with positive reward = 27, number of runs that timed out =  3
+average number of steps until reward = 68.96153846153847
+total reward final value = 128.05, total reward count = 49.00
+number of runs that timed out =  3
+number of forward moves =  8, neutral moves = 41, backward moves =  0
+
+t=500
+7-InternalMemory
+total reward for all runs = 57.84, average reward per run = 1.93
+number of runs with positive reward = 26, number of runs that timed out =  4
+average number of steps until reward = 322.1034482758621
+total reward final value = 57.84, total reward count = 25.00
+number of runs that timed out =  4
+number of forward moves = 16, neutral moves =  8, backward moves =  1
+ratio of forward moves to backward moves = 16.00
+
+7-InternalMemory_1 (with obstacles)
+total reward for all runs = 14.80, average reward per run = 0.49
+number of runs with positive reward = 12, number of runs that timed out = 18
+average number of steps until reward = 328.6551724137931
+total reward final value = 14.80, total reward count = 11.00
+number of runs that timed out = 18
+number of forward moves =  2, neutral moves =  9, backward moves =  0
+
+
+inhibiting oscillations:
+[{'Total': 29.0, 'C1': 22.0, 'C2': 13.0, 'C3': 4.0, 'C4': 6.0, 'C5': 5.0, 'C6': 14.0, 'C7': 10.0, 'C8': 2.0, 'C9': 11.0, 'C10': 0.0}]
+run time = 955
+
+change MAX_STEPS_TO_ACCEPT_GREEN from 250 to 150:
+[{'Total': 25.3, 'C1': 19.0, 'C2': 10.0, 'C3': 2.0, 'C4': 7.0, 'C5': 4.0, 'C6': 15.0, 'C7': 4.0, 'C8': 3.0, 'C9': 11.0, 'C10': 1.0}]
+run time = 879.1
+
+change MAX_STEPS_TO_ACCEPT_GREEN to 350:
+[{'Total': 25.3, 'C1': 18.0, 'C2': 16.0, 'C3': 2.0, 'C4': 6.0, 'C5': 3.0, 'C6': 14.0, 'C7': 7.0, 'C8': 1.0, 'C9': 9.0, 'C10': 0.0}
+run time = 879.2
+
+[{'Total': 24.6, 'C1': 16.0, 'C2': 11.0, 'C3': 4.0, 'C4': 6.0, 'C5': 4.0, 'C6': 17.0, 'C7': 7.0, 'C8': 1.0, 'C9': 8.0, 'C10': 0.0}]
+run time 4024
+
+use_maze_network:
+Obstacles-3, timesteps 250/1000
+total reward for all runs = 11.37, average reward per run = 0.38
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 153.41379310344828
+
+don't use maze network:
+total reward for all runs = 19.08, average reward per run = 0.64
+number of runs with positive reward = 24, number of runs that timed out =  6
+average number of steps until reward = 133.3793103448276
+total reward final value = 19.08, total reward count = 23.00
+number of runs that timed out =  6
+number of forward moves = 12, neutral moves = 11, backward moves =  0
+
+
+
+back to original networks, don't use maze network, do use wall detection
+TIMESTEPS = 250
+EPSILON = 0.01
+NUM_INITIAL_INSPECTION_STEPS = 52
+#when we cannot see a target, we will turn to look around for up to this many turns, at 6 degrees per turn
+MAX_NUM_NO_TARGET_TURNS_LOTS_OF_TIME = 50
+MAX_NUM_NO_TARGET_TURNS = 50
+MAX_NUM_NO_TARGET_TURNS_NEAR_TIMEOUT = 50
+#when we cannot see a target and we have done all the turns, we will move forward up to this many times
+#before going back to turning
+MAX_NUM_NO_TARGET_MOVES_LOTS_OF_TIME = 40
+MAX_NUM_NO_TARGET_MOVES = 35
+MAX_STEPS_TO_ACCEPT_GREEN = 248 - NUM_INITIAL_INSPECTION_STEPS
+MAX_NUM_NO_TARGET_MOVES_NEAR_TIMEOUT = 20
+
+MAX_NUM_STEPS_TO_REDUCE_TURNS = 0
+MAX_OSCILLATIONS = 3
+MAX_STUCK_NUMBER = 3
+MIN_RED_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+MIN_GREEN_RADIUS = 20.0  #smallest radius that we will use to avoid targets
+MAX_PIXEL = 84.
+MAX_VEL = 12.0
+MAX_RADIUS = 30.0
+2-Preferences, 250 steps
+total reward for all runs = 140.90, average reward per run = 4.70, total reward count = 55.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 58.49090909090909
+number of forward moves = 1239, neutral moves = 2074, backward moves = 22
+
+3-Obstacle, timesteps = 250
+total reward for all runs = 12.60, average reward per run = 0.42, total reward count = 18.00
+number of runs with positive reward = 19, number of runs that timed out = 11
+average number of steps until reward = 175.93103448275863
+
+[{'Total': 29.3, 'C1': 22.0, 'C2': 13.0, 'C3': 5.0, 'C4': 7.0, 'C5': 4.0, 'C6': 16.0, 'C7': 6.0, 'C8': 2.0, 'C9': 13.0, 'C10': 0.0}]
+time = 3590
+
+try improving blackout and perhaps put accept green back up to 250
+turn left instead of right after blackout
+
+blackout, t = 250 
+total reward for all runs = 61.85, average reward per run = 2.06, total reward count = 25.00
+number of runs with positive reward = 26, number of runs that timed out =  4
+average number of steps until reward = 106.51724137931035
+number of forward moves = 953, neutral moves = 2379, backward moves =
+
+turning left instead of right:
+total reward for all runs = 30.67, average reward per run = 1.02, total reward count = 16.00
+number of runs with positive reward = 17, number of runs that timed out = 13
+average number of steps until reward = 163.48275862068965
+number of forward moves = 942, neutral moves = 3868, backward moves =  6
+
+temp blackout, no obstacles, no wall detection,  t = 250:
+total reward for all runs = 67.05, average reward per run = 2.23, total reward count = 26.00
+number of runs with positive reward = 27, number of runs that timed out =  3
+average number of steps until reward = 121.96551724137932
+number of forward moves = 821, neutral moves = 2851, backward moves =  8
+
+perm blackout:
+total reward for all runs = 35.02, average reward per run = 1.17, total reward count = 14.00
+number of runs with positive reward = 17, number of runs that timed out = 13
+average number of steps until reward = 166.48
+number of forward moves = 1559, neutral moves = 2775, backward moves = 743
+
+
+1-Food
+check the problem in episode 14
+total reward for all runs = 68.71, average reward per run = 2.29, total reward count = 28.00
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 106.90
+number of forward moves = 751, neutral moves = 2456, backward moves =  5
+
+
+oscillation near the walls makes me think it may still be using wall detector
+
+
+2-Preferences, t = 250
+something weird in episode 13
+missed a gold in episode 26
+total reward for all runs = 140.04, average reward per run = 4.67, total reward count = 54.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 57.11
+number of forward moves = 1113, neutral moves = 2017, backward moves = 21
+
+
+3-Obstacles
+total reward for all runs = 15.92, average reward per run = 0.53, total reward count = 20.00
+number of runs with positive reward = 21, number of runs that timed out =  9
+average number of steps until reward = 130.45
+number of forward moves = 1424, neutral moves = 2607, backward moves =  1
+
+wall detection turned on.  2-Preferences
+total reward for all runs = 140.04, average reward per run = 4.67, total reward count = 54.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 57.11
+number of forward moves = 1113, neutral moves = 2017, backward moves = 21
+
+
+training:
+easy_centered, 2048 steps, new script
+Model saved in path: trained_models/easy_centered_food/easy_centered_food.ckpt.ckpt
+for the last 31 steps, the average number of steps until reward = 356.2258064516129
+total reward final value =  10240.0
+
+easy centered, old script, started around 6:30 pm, finished around 6:55
+Model saved in path: trained_models/easy_centered_food_old_script/easy_centered_food.ckpt
+for the last 31 steps, the average number of steps until reward = 60.935483870967744
+total reward final value =  2048.0
+number of forward moves = 1087, neutral moves = 739, backward moves = 222
+ratio of forward moves to backward moves = 4.90
+
+fast train, easy centered, took about 40 min
+Model saved in path: trained_models/easy_centered_food_fast_script/easy_centered_food.ckpt
+for the last 31 steps, the average number of steps until reward = 105.06
+number of forward moves = 1515, neutral moves = 265, backward moves = 268
+ratio of forward moves to backward moves = 5.65
+
+train_universal, took 34 mins, uses the process image class
+Model saved at count = 2048
+Model saved in path: trained_models/easy_centered_food_universal_script/easy_centered_food.ckpt
+for the last 31 steps, the average number of steps until reward = 60.87
+number of forward moves = 1318, neutral moves = 519, backward moves = 211
+ratio of forward moves to backward moves = 6.25
+This is a great result for an easy food training.
+with 2-Preferences:
+total reward for all runs = 118.16, average reward per run = 3.94, total reward count = 48.00
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 72.80
+number of forward moves = 1985, neutral moves = 1534, backward moves = 256
+
+train universal, random location and size, loading easy centered food
+training took 28 min
+Model saved in path: trained_models/random_location_and_size_universal_script/random_location_and_size.ckpt
+for the last 31 steps, the average number of steps until reward = 86.68
+number of forward moves = 1735, neutral moves = 196, backward moves = 117
+ratio of forward moves to backward moves = 14.83
+
+the original trained network, with 2-Preferences:
+total reward for all runs = 141.50, average reward per run = 4.72, total reward count = 55.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 56.67
+number of forward moves = 1155, neutral moves = 2007, backward moves = 22
+[{'Total': 29.0, 'C1': 23.0, 'C2': 13.0, 'C3': 3.0, 'C4': 8.0, 'C5': 4.0, 'C6': 14.0, 'C7': 8.0, 'C8': 2.0, 'C9': 12.0, 'C10': 0.0}], time = 3646
+
+universal trained
+Model saved at count = 4096
+Model saved in path: trained_models/random_location_and_size/random_location_and_size.ckpt
+for the last 31 steps, the average number of steps until reward = 57.68
+number of forward moves = 2372, neutral moves = 731, backward moves = 993
+ratio of forward moves to backward moves = 2.39
+
+2-Preferences, t=250
+total reward for all runs = 140.85, average reward per run = 4.69, total reward count = 55.00
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 47.68
+number of forward moves = 1347, neutral moves = 1351, backward moves = 32
+
+
+when obstacles detected, increase the number of moves, maybe decrease the number of turns
+
+
+
+bad goal training:
+Model saved at count = 256
+Model saved in path: trained_models/random_location_bad_goal/random_location_bad_goal.ckpt
+for the last 31 steps, the average number of steps until reward = 2059.39
+number of forward moves = 134, neutral moves = 40, backward moves = 82
+ratio of forward moves to backward moves = 1.63
+2-Preferences
+total reward for all runs = 138.58, average reward per run = 4.62, total reward count = 54.00
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 55.09
+number of forward moves = 1506, neutral moves = 1551, backward moves = 33
+4-Avoidance
+total reward for all runs = 3.99, average reward per run = 0.13, total reward count = 4.00
+number of runs with positive reward = 25, number of runs that timed out =  5
+average number of steps until reward = 113.72
+number of forward moves = 1185, neutral moves = 2289, backward moves =  4
+
+original red network:
+total reward for all runs = 3.99, average reward per run = 0.13, total reward count = 4.00
+number of runs with positive reward = 25, number of runs that timed out =  5
+average number of steps until reward = 115.55
+number of forward moves = 1226, neutral moves = 2300, backward moves =  5
+
+
+2-Preferences
+look at episode 5, overruns after avoiding red and then has a hard time with a gold target from the right
+episode 15, runs around the gold instead of just taking it
+episode 24 unknown color, dances around rather than avoiding target correctly
+total reward for all runs = 142.37, average reward per run = 4.75, total reward count = 55.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 48.11
+number of forward moves = 1338, neutral moves = 1342, backward moves = 26
+
+reduced number of forward moves
+2-Preferences
+total reward for all runs = 146.09, average reward per run = 4.87, total reward count = 56.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 46.45
+number of forward moves = 1291, neutral moves = 1349, backward moves = 21
+
+no wall detection:
+total reward for all runs = 146.10, average reward per run = 4.87, total reward count = 56.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 46.41
+number of forward moves = 1280, neutral moves = 1359, backward moves = 20
+
+
+if we headbang and look and it is not an arena wall, then obstacles = true
+select largest green based on radius/vertical height (distnce measure)
+
+better wall detection, headbang obstacle detection
+2-Preferences
+total reward for all runs = 145.93, average reward per run = 4.86, total reward count = 56.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 46.64
+number of forward moves = 1288, neutral moves = 1391, backward moves = 23
+
+3-Obstacles
+total reward for all runs = 14.19, average reward per run = 0.47, total reward count = 18.00
+number of runs with positive reward = 19, number of runs that timed out = 11
+average number of steps until reward = 121.17
+number of forward moves = 937, neutral moves = 2823, backward moves =  3
+[{'Total': 33.0, 'C1': 23.0, 'C2': 16.0, 'C3': 4.0, 'C4': 7.0, 'C5': 7.0, 'C6': 16.0, 'C7': 9.0, 'C8': 3.0, 'C9': 13.0, 'C10': 1.0}]
+time = 842
+
+maze training
+Model saved at count = 2048
+Model saved in path: trained_networks/maze/maze.ckpt
+for the last 31 steps, the average number of steps until reward = 605.74
+number of forward moves = 1020, neutral moves = 21, backward moves = 900
+ratio of forward moves to backward moves = 1.13
+
+
+with headbanks and stucks:
+for the last 31 steps, the average number of steps until reward = 704.16
+number of forward moves = 337, neutral moves = 303, backward moves = 1272
+ratio of forward moves to backward moves = 0.26
+
+
+wandering in reverse, 3-obstacles:
+total reward for all runs = 20.10, average reward per run = 0.67, total reward count = 23.00
+number of runs with positive reward = 24, number of runs that timed out =  6
+average number of steps until reward = 96.24
+number of forward moves = 518, neutral moves = 1280, backward moves = 1046
+
+with initial look around
+total reward for all runs = 19.64, average reward per run = 0.65, total reward count = 23.00
+number of runs with positive reward = 24, number of runs that timed out =  6
+average number of steps until reward = 106.10
+number of forward moves = 523, neutral moves = 1864, backward moves = 926
+
+2-Preferences
+total reward for all runs = 145.87, average reward per run = 4.86, total reward count = 56.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 46.89
+number of forward moves = 1299, neutral moves = 1395, backward moves = 22
+[{'Total': 35.7, 'C1': 23.0, 'C2': 15.0, 'C3': 8.0, 'C4': 7.0, 'C5': 12.0, 'C6': 17.0, 'C7': 9.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+
+moving back except when red seen
+total reward for all runs = 145.26, average reward per run = 4.84, total reward count = 56.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 49.64
+number of forward moves = 1356, neutral moves = 1446, backward moves = 68
+
+
+7-InternalMemory, using backward moves
+total reward for all runs = 75.72, average reward per run = 2.52, total reward count = 29.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 109.59
+number of forward moves = 877, neutral moves = 2418, backward moves = 12
+
+
+run backwards except when red seen
+[{'Total': 33.0, 'C1': 22.0, 'C2': 15.0, 'C3': 5.0, 'C4': 8.0, 'C5': 11.0, 'C6': 17.0, 'C7': 9.0, 'C8': 2.0, 'C9': 10.0, 'C10': 0.0}] time 841
+fixed bug where it was not doing modified action when color != 0 to fix the backwards moves
+[{'Total': 33.0, 'C1': 22.0, 'C2': 15.0, 'C3': 5.0, 'C4': 8.0, 'C5': 11.0, 'C6': 17.0, 'C7': 9.0, 'C8': 2.0, 'C9': 10.0, 'C10': 0.0}] time 871
+
+hotzone reward with t = 250 = -2.999.. e-05 = .00003
+
+t=250 timestep neg reward = -.004
+hotzone neg reward = -0.045
+t = 500  -.002
+-0.022
+t = 1000 -.001
+.01
+
+work on hot zone code
+we are seeing headbangs with no wall present false positives.
+
+experiment with the cardboard boxes, see if we can headbang them out of the way.
+
+
+now running backwards and with hotzones, want to test with regular running and hotzones
+[{'Total': 32.3, 'C1': 23.0, 'C2': 13.0, 'C3': 6.0, 'C4': 8.0, 'C5': 10.0, 'C6': 17.0, 'C7': 8.0, 'C8': 2.0, 'C9': 10.0, 'C10': 0.0}]
+
+with hotzones but reverted to going forward unless seeing obstacles.
+[{'Total': 35.7, 'C1': 23.0, 'C2': 15.0, 'C3': 8.0, 'C4': 7.0, 'C5': 12.0, 'C6': 17.0, 'C7': 9.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+[{'Total': 36.0, 'C1': 24.0, 'C2': 14.0, 'C3': 9.0, 'C4': 8.0, 'C5': 12.0, 'C6': 17.0, 'C7': 8.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+
+
+I think the time reduction is due to more aggressive moving around in blackouts.
+
+better response to headbangs
+detect obstacle walls like we do arena walls, we are currently scraping slowly along them
+for mazes, try increasing the batch size to 400
+
+There is something to be done with floors and distance to targets....
+It's a big hint that the vast majority of tasks have just a single reward
+Also, we may have learned that blackout runs have long times.
+
+
+
+temp blackouts t = 500
+total reward for all runs = 76.15, average reward per run = 2.54, total reward count = 29.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 102.14
+number of forward moves = 1151, neutral moves = 1917, backward moves = 23
+
+2-Preferences
+total reward for all runs = 146.06, average reward per run = 4.87, total reward count = 56.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 46.57
+number of forward moves = 1285, neutral moves = 1363, backward moves = 20
+
+wall detection turned off
+temp blackouts
+total reward for all runs = 75.85, average reward per run = 2.53, total reward count = 29.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 107.24
+number of forward moves = 844, neutral moves = 2384, backward moves = 11
+
+permanent blackout, just a random green target, no red, no walls, t = 500
+total reward for all runs = 33.80, average reward per run = 1.13, total reward count = 16.00
+number of runs with positive reward = 17, number of runs that timed out = 13
+average number of steps until reward = 324.66
+number of forward moves = 4185, neutral moves = 1448, backward moves = 3839
+
+[{'Total': 36.0, 'C1': 24.0, 'C2': 14.0, 'C3': 9.0, 'C4': 8.0, 'C5': 12.0, 'C6': 17.0, 'C7': 8.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+[{'Total': 36.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 9.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+time was short = 793
+
+changed type of wandering:
+permanent blackout, as above
+total reward for all runs = 33.05, average reward per run = 1.10, total reward count = 15.00
+number of runs with positive reward = 16, number of runs that timed out = 14
+average number of steps until reward = 326.03
+number of forward moves = 4935, neutral moves = 4574, backward moves =  3
+
+with wall and red:
+total reward for all runs = 27.55, average reward per run = 0.92, total reward count = 17.00
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 270.28
+number of forward moves = 2429, neutral moves = 5488, backward moves = 18
+
+total reward for all runs = 29.44, average reward per run = 0.98, total reward count = 17.00
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 268.83
+number of forward moves = 2570, neutral moves = 5305, backward moves = 18
+
+total reward for all runs = 21.35, average reward per run = 0.71, total reward count = 15.00
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 265.38
+number of forward moves = 2497, neutral moves = 5278, backward moves = 18
+
+total reward for all runs = 19.87, average reward per run = 0.66, total reward count = 14.00
+number of runs with positive reward = 19, number of runs that timed out = 11
+average number of steps until reward = 264.59
+number of forward moves = 2544, neutral moves = 5208, backward moves = 18
+
+total reward for all runs = 29.90, average reward per run = 1.00, total reward count = 16.00
+number of runs with positive reward = 17, number of runs that timed out = 13
+average number of steps until reward = 282.38
+number of forward moves = 4205, neutral moves = 4037, backward moves =  4
+
+total reward for all runs = 36.87, average reward per run = 1.23, total reward count = 18.00
+number of runs with positive reward = 19, number of runs that timed out = 11
+average number of steps until reward = 260.48
+number of forward moves = 4538, neutral moves = 3069, backward moves =  4
+
+total reward for all runs = 25.52, average reward per run = 0.85, total reward count = 16.00
+number of runs with positive reward = 17, number of runs that timed out = 13
+average number of steps until reward = 280.83
+number of forward moves = 4867, neutral moves = 3330, backward moves =  4
+
+total reward for all runs = 18.78, average reward per run = 0.63, total reward count = 14.00
+number of runs with positive reward = 15, number of runs that timed out = 15
+average number of steps until reward = 296.21
+
+total reward for all runs = 36.87, average reward per run = 1.23, total reward count = 18.00
+number of runs with positive reward = 19, number of runs that timed out = 11
+average number of steps until reward = 260.48
+number of forward moves = 4538, neutral moves = 3069, backward moves =  4
+
+correct the move to previuos green
+total reward for all runs = 32.35, average reward per run = 1.08, total reward count = 17.00
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 255.79
+number of forward moves = 4445, neutral moves = 3025, backward moves =  5
+
+total reward for all runs = 25.52, average reward per run = 0.85, total reward count = 16.00
+number of runs with positive reward = 17, number of runs that timed out = 13
+average number of steps until reward = 280.83
+number of forward moves = 4867, neutral moves = 3330, backward moves =  4
+
+total reward for all runs = 25.52, average reward per run = 0.85, total reward count = 16.00
+number of runs with positive reward = 17, number of runs that timed out = 13
+average number of steps until reward = 280.83
+number of forward moves = 4867, neutral moves = 3330, backward moves =  4
+
+total reward for all runs = 32.35, average reward per run = 1.08, total reward count = 17.00
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 255.79
+number of forward moves = 4445, neutral moves = 3025, backward moves =  5
+
+total reward for all runs = 36.87, average reward per run = 1.23, total reward count = 18.00
+number of runs with positive reward = 19, number of runs that timed out = 11
+average number of steps until reward = 260.48
+number of forward moves = 4538, neutral moves = 3069, backward moves =  4
+
+total reward for all runs = 32.37, average reward per run = 1.08, total reward count = 17.00
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 255.48
+number of forward moves = 4480, neutral moves = 2981, backward moves =  5
+
+total reward for all runs = 13.40, average reward per run = 0.45, total reward count = 12.00
+number of runs with positive reward = 13, number of runs that timed out = 17
+average number of steps until reward = 351.17
+number of forward moves = 6057, neutral moves = 4181, backward moves =  3
+
+
+total reward for all runs = 32.72, average reward per run = 1.09, total reward count = 17.00
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 257.31
+number of forward moves = 4402, neutral moves = 3113, backward moves =  4
+
+total reward for all runs = 28.99, average reward per run = 0.97, total reward count = 17.00
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 266.72
+number of forward moves = 4585, neutral moves = 3203, backward moves =  4
+
+no walls:
+total reward for all runs = 27.73, average reward per run = 0.92, total reward count = 16.00
+number of runs with positive reward = 17, number of runs that timed out = 13
+average number of steps until reward = 271.55
+number of forward moves = 4682, neutral moves = 3246, backward moves =  4
+
+
+temp blackout
+total reward for all runs = 76.92, average reward per run = 2.56, total reward count = 29.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 88.76
+number of forward moves = 857, neutral moves = 1837, backward moves =  9
+
+walls back in:
+total reward for all runs = 76.92, average reward per run = 2.56, total reward count = 29.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 88.76
+number of forward moves = 856, neutral moves = 1839, backward moves =  8
+
+2-Preferences
+total reward for all runs = 146.06, average reward per run = 4.87, total reward count = 56.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 46.57
+number of forward moves = 1285, neutral moves = 1363, backward moves = 20
+
+3-Obstacles
+total reward for all runs = 20.81, average reward per run = 0.69, total reward count = 28.00
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 228.17
+number of forward moves = 1128, neutral moves = 3226, backward moves = 2775
+
+no walls, 3-Obstacles
+total reward for all runs = 21.29, average reward per run = 0.71, total reward count = 28.00
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 211.76
+number of forward moves = 1140, neutral moves = 2745, backward moves = 2768
+[{'Total': 36.0, 'C1': 24.0, 'C2': 14.0, 'C3': 9.0, 'C4': 8.0, 'C5': 12.0, 'C6': 17.0, 'C7': 8.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+[{'Total': 36.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 9.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+[{'Total': 37.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 8.0, 'C5': 13.0, 'C6': 18.0, 'C7': 11.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+time 823
+
+
+
+walls on, improved blackout, hurt avoidance
+[{'Total': 36.0, 'C1': 24.0, 'C2': 14.0, 'C3': 9.0, 'C4': 8.0, 'C5': 12.0, 'C6': 17.0, 'C7': 8.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+[{'Total': 37.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 8.0, 'C5': 13.0, 'C6': 18.0, 'C7': 11.0, 'C8': 3.0, 'C9': 13.0
+[{'Total': 37.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 12.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+time 811
+
+
+3-obstacles:
+total reward for all runs = 22.30, average reward per run = 0.74, total reward count = 29.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 212.38
+number of forward moves = 1143, neutral moves = 3047, backward moves = 2448
+
+
+old networks:
+total reward for all runs = 21.65, average reward per run = 0.72, total reward count = 29.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 240.97
+number of forward moves = 1107, neutral moves = 3672, backward moves = 2514
+
+back to new networks, using area measurements for red and hotzone radius
+
+2-Preferences
+total reward for all runs = 145.40, average reward per run = 4.85, total reward count = 56.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 49.54
+number of forward moves = 1348, neutral moves = 1451, backward moves = 35
+
+3-Obstacles
+total reward for all runs = 21.83, average reward per run = 0.73, total reward count = 29.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 228.69
+number of forward moves = 1086, neutral moves = 3367, backward moves = 2658
+
+[{'Total': 36.0, 'C1': 24.0, 'C2': 14.0, 'C3': 9.0, 'C4': 8.0, 'C5': 12.0, 'C6': 17.0, 'C7': 8.0,  'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+[{'Total': 36.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 9.0,  'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 793
+[{'Total': 37.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 8.0, 'C5': 13.0, 'C6': 18.0, 'C7': 11.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 823
+[{'Total': 37.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 12.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 811
+[{'Total': 37.3, 'C1': 23.0, 'C2': 15.0, 'C3': 8.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 12.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 842
+we will leave walls working, but not when red seen.
+
+added a 4th color for hotzones and now avoiding them when there is plenty of time remaining
+hotzone
+total reward for all runs = 4.10, average reward per run = 0.14, total reward count = 29.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 332.17
+number of forward moves = 3377, neutral moves = 6581, backward moves = 57
+
+food
+total reward for all runs = 72.10, average reward per run = 2.40, total reward count = 29.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 84.38
+number of forward moves = 758, neutral moves = 1781, backward moves =  5
+
+preferences-- hit a red one on episode 30
+total reward for all runs = 144.24, average reward per run = 4.81, total reward count = 55.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 46.49
+number of forward moves = 1289, neutral moves = 1399, backward moves = 22
+
+3-obstacles:
+total reward for all runs = 22.86, average reward per run = 0.76, total reward count = 30.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 220.00
+number of forward moves = 1141, neutral moves = 3477, backward moves = 2461
+
+
+increasing accept green to 499 - initial steps...
+[{'Total': 36.0, 'C1': 24.0, 'C2': 14.0, 'C3': 9.0, 'C4': 8.0, 'C5': 12.0, 'C6': 17.0, 'C7': 8.0,  'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+[{'Total': 36.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 9.0,  'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 793
+[{'Total': 37.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 8.0, 'C5': 13.0, 'C6': 18.0, 'C7': 11.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 823
+[{'Total': 37.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 12.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 811
+[{'Total': 37.3, 'C1': 23.0, 'C2': 15.0, 'C3': 8.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 12.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 842
+[{'Total': 36.7, 'C1': 25.0, 'C2': 15.0, 'C3': 8.0, 'C4': 8.0, 'C5': 14.0, 'C6': 16.0, 'C7': 6.0,  'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 841
+
+
+changed min red size to 5 (from 20)
+[{'Total': 36.0, 'C1': 25.0, 'C2': 14.0, 'C3': 8.0, 'C4': 6.0, 'C5': 14.0, 'C6': 16.0, 'C7': 9.0, 'C8': 1.0, 'C9': 15.0, 'C10': 0.0}] 838
+2-Preferences
+total reward for all runs = 147.87, average reward per run = 4.93, total reward count = 57.00
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 48.48
+number of forward moves = 1404, neutral moves = 1439, backward moves = 29
+
+
+we will leave walls working, but not when red seen.
+4-Avoidance
+target found in episode 30, episode_step = 181, steps remaining = 319, episode reward = 0.64, total_reward = -3.11, reward count = 7.00, total targets found = 27
+total reward for all runs = -3.11, average reward per run = -0.10, total reward count = 7.00
+number of runs with positive reward = 27, number of runs that timed out =  3
+average number of steps until reward = 150.60
+
+temporary_blackout_with_wall_and_bad_goal, t = 1000, green steps = 325
+total reward for all runs = 33.19, average reward per run = 1.11, total reward count = 18.00
+number of runs with positive reward = 22, number of runs that timed out =  8
+average number of steps until reward = 448.17
+number of forward moves = 2232, neutral moves = 11712, backward moves = 500
+
+[{'Total': 36.0, 'C1': 24.0, 'C2': 14.0, 'C3': 9.0, 'C4': 8.0, 'C5': 12.0, 'C6': 17.0, 'C7': 8.0,  'C8': 3.0, 'C9': 13.0, 'C10': 0.0}]
+[{'Total': 36.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 9.0,  'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 793
+[{'Total': 37.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 8.0, 'C5': 13.0, 'C6': 18.0, 'C7': 11.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 823
+[{'Total': 37.7, 'C1': 24.0, 'C2': 16.0, 'C3': 7.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 12.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 811
+[{'Total': 37.3, 'C1': 23.0, 'C2': 15.0, 'C3': 8.0, 'C4': 7.0, 'C5': 13.0, 'C6': 18.0, 'C7': 12.0, 'C8': 3.0, 'C9': 13.0, 'C10': 0.0}] 842
+[{'Total': 36.7, 'C1': 25.0, 'C2': 15.0, 'C3': 8.0, 'C4': 8.0, 'C5': 14.0, 'C6': 16.0, 'C7': 6.0,  'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 841
+[{'Total': 38.0, 'C1': 25.0, 'C2': 15.0, 'C3': 8.0, 'C4': 8.0, 'C5': 14.0, 'C6': 18.0, 'C7': 8.0,  'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 815
+[{'Total': 38.3, 'C1': 25.0, 'C2': 15.0, 'C3': 8.0, 'C4': 9.0, 'C5': 14.0, 'C6': 17.0, 'C7': 9.0,  'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 873
+for the 38.3, picked values for when to accept green and for max_red_radius based on results from the parameter range tests
+
+
+with sizes:
+[{'Total': 37.0, 'C1': 25.0, 'C2': 13.0, 'C3': 9.0, 'C4': 9.0, 'C5': 10.0, 'C6': 18.0, 'C7': 8.0, 'C8': 4.0, 'C9': 15.0, 'C10': 0.0}]
+bug fix:
+[{'Total': 37.0, 'C1': 25.0, 'C2': 14.0, 'C3': 9.0, 'C4': 9.0, 'C5': 10.0, 'C6': 17.0, 'C7': 8.0, 'C8': 4.0, 'C9': 15.0, 'C10': 0.0}]
+
+using sizes:
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.48,  30,  0,  89, 1-Food
+132.27,  56,  2,  59, 2-Preferences
+ 15.52,  27,  3, 376, 3-Obstacles
+-12.53,   5,  1, 278, 4-Avoidance
+ 34.80,  51,  7, 277, 5-SpatialReasoning
+ 34.24,  50,  8, 253, 6-Generalization
+ 71.66,  29,  1, 176, 7-InternalMemory
+ 64.55,  30,  0, 156, temporary_blackout
+ 39.56,  20, 10, 270, permanent_blackout
+ 31.66,  21,  9, 233, permanent_blackout_with_wall_and_bad_goal
+  1.53,  28,  2, 329, hot_zone
+ 29.38,  16,  0, 268, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ -2.00,  22,  8, 387, objectManipulation
+ 25.09,  21, 10, 204, allObjectsRandom
+ 37.34,  29,  4, 229, overall averages
+
+with sizes, bug fixed
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.41,  30,  0,  90, 1-Food
+132.26,  56,  2,  59, 2-Preferences
+ 15.52,  27,  3, 376, 3-Obstacles
+-12.53,   5,  1, 278, 4-Avoidance
+ 34.80,  51,  7, 277, 5-SpatialReasoning
+ 34.24,  50,  8, 253, 6-Generalization
+ 75.90,  30,  0, 176, 7-InternalMemory
+ 64.44,  30,  0, 158, temporary_blackout
+ 37.53,  19, 11, 275, permanent_blackout
+ 31.66,  21,  9, 233, permanent_blackout_with_wall_and_bad_goal
+  1.53,  28,  2, 329, hot_zone
+ 29.38,  16,  0, 268, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ -0.63,  23,  7, 381, objectManipulation
+ 21.52,  19, 11, 209, allObjectsRandom
+ 37.33,  29,  4, 229, overall averages
+ 
+ without sizes:
+ number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.52,  30,  0,  89, 1-Food
+132.33,  56,  2,  59, 2-Preferences
+ 15.55,  27,  3, 375, 3-Obstacles
+ -4.51,   9,  1, 216, 4-Avoidance
+ 37.57,  53,  6, 260, 5-SpatialReasoning
+ 34.24,  50,  8, 253, 6-Generalization
+ 78.17,  30,  0, 138, 7-InternalMemory
+ 66.18,  30,  0, 129, temporary_blackout
+ 40.18,  20, 10, 260, permanent_blackout
+ 27.24,  20, 10, 234, permanent_blackout_with_wall_and_bad_goal
+  8.20,  28,  2, 245, hot_zone
+ 53.45,  22,  0, 185, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ 10.01,  27,  3, 270, objectManipulation
+ 28.80,  21,  9, 181, allObjectsRandom
+ 41.45,  30,  4, 198, overall averages
+
+ 
+multiple green targets, bug fixed:
+total reward for all runs = 139.70, average reward per run = 4.66, total reward count = 30.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 81.17
+number of forward moves = 610, neutral moves = 1896, backward moves =  2
+
+
+spiral wandering
+permanent blackout:
+total reward for all runs = 42.10, average reward per run = 1.40, total reward count = 18.00
+number of runs with positive reward = 18, number of runs that timed out = 12
+average number of steps until reward = 265.17
+[{'Total': 38.3, 'C1': 25.0, 'C2': 15.0, 'C3': 8.0, 'C4': 9.0, 'C5': 14.0, 'C6': 17.0, 'C7': 9.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 873
+[{'Total': 36.7, 'C1': 25.0, 'C2': 14.0, 'C3': 6.0, 'C4': 9.0, 'C5': 14.0, 'C6': 17.0, 'C7': 7.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 871
+
+
+back to 38.3 code
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.52,  30,  0,  89, 1-Food
+132.33,  56,  2,  59, 2-Preferences
+ 15.55,  27,  3, 375, 3-Obstacles
+ -4.51,   9,  1, 216, 4-Avoidance
+ 34.80,  51,  7, 277, 5-SpatialReasoning
+ 34.24,  50,  8, 253, 6-Generalization
+ 78.45,  30,  0, 133, 7-InternalMemory
+ 66.18,  30,  0, 129, temporary_blackout
+ 40.34,  19, 11, 256, permanent_blackout
+ 23.34,  19, 11, 246, permanent_blackout_with_wall_and_bad_goal
+  8.20,  28,  2, 245, hot_zone
+ 53.45,  22,  0, 185, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+  8.58,  26,  4, 278, objectManipulation
+ 29.49,  20,  7, 184, allObjectsRandom
+ 40.99,  30,  4, 200, overall averages
+
+[{'Total': 38.3, 'C1': 25.0, 'C2': 15.0, 'C3': 8.0, 'C4': 9.0, 'C5': 14.0, 'C6': 17.0, 'C7': 9.0,  'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 873
+[{'Total': 38.7, 'C1': 25.0, 'C2': 15.0, 'C3': 8.0, 'C4': 9.0, 'C5': 14.0, 'C6': 17.0, 'C7': 10.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 914
+removed the line #if not self.red_color_seen: from where the agent actions are modified in select_action (line 412)
+[{'Total': 39.3, 'C1': 25.0, 'C2': 16.0, 'C3': 8.0, 'C4': 9.0, 'C5': 14.0, 'C6': 18.0, 'C7': 10.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 932
+try increasing the number where we take green, if the timesteps are 500 or 1000
+this might pick up the cases where we want the close by green and not the far away green
+
+don't go for any green when turning back to a formerly seen target-- it has to be near the same radius
+2-Preferences
+total reward for all runs = 148.00, average reward per run = 4.93, total reward count = 57.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 47.02
+number of forward moves = 1370, neutral moves = 1353, backward moves = 25
+
+[{'Total': 39.7, 'C1': 25.0, 'C2': 18.0, 'C3': 8.0, 'C4': 9.0, 'C5': 14.0, 'C6': 17.0, 'C7': 10.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 901
+
+changed max green to be specific for the number of timesteps instead of just being 325
+[{'Total': 39.7, 'C1': 24.0, 'C2': 16.0, 'C3': 8.0, 'C4': 8.0, 'C5': 11.0, 'C6': 16.0, 'C7': 17.0, 'C8': 3.0, 'C9': 16.0, 'C10': 0.0}] 844
+changed max green to be much higher when we do not see any gold targets present:
+[{'Total': 40.3, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 19.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 892
+Our C5 score is still lower than before, so we know that C5 wants us to wait longer before taking green.  If we could figure out what C5 characteristics are, we could probably bring that score back up.  C6 score is really good now and C7 is up where it needs to be, but could go higher-- this will be helped with mapping, so no need to tweak now.
+
+Now we know that C7 has high timestep values and that there are plenty of green targets available.  If we take them before the blackouts get going, we get a high C7 score.  However, if we do that, we lower the scores in C1, C2, and C5, presumably because we take green targets when there are still gold ones available.  See how increasing the value where we take green increased C7 by 7 points and decreased the total time by 57 seconds.  Bit we decreased C5 by 3 points, a big hit.  This means C5 depends on getting gold targets.
+
+objectManipulation
+total reward for all runs = 14.27, average reward per run = 0.48, total reward count = 28.00
+number of runs with positive reward = 28, number of runs that timed out =  2
+average number of steps until reward = 213.33
+number of forward moves = 2097, neutral moves = 4720, backward moves =  2
+
+noticed that we could be stuck but moving a little bit, changed stuck velocity criteria from 0.05 to 0.6
+
+try not using walls:
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.91,  30,  0,  86, 1-Food
+133.92,  57,  1,  62, 2-Preferences
+ 23.74,  30,  0, 200, 3-Obstacles
+  0.27,  12,  2, 186, 4-Avoidance
+ 35.39,  51,  8, 263, 5-SpatialReasoning
+ 37.16,  51,  7, 220, 6-Generalization
+ 80.97,  30,  0,  91, 7-InternalMemory
+ 67.14,  29,  1, 105, temporary_blackout
+ 39.20,  21,  9, 216, permanent_blackout
+ 36.02,  21,  9, 204, permanent_blackout_with_wall_and_bad_goal
+  7.44,  28,  2, 225, hot_zone
+ 55.10,  22,  0, 158, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+  8.80,  26,  4, 269, objectManipulation
+ 32.50,  20,  6, 163, allObjectsRandom
+ 43.49,  31,  3, 168, overall averages
+
+with walls
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.95,  30,  0,  85, 1-Food
+133.92,  57,  1,  62, 2-Preferences
+ 19.55,  28,  2, 277, 3-Obstacles
+  0.25,  12,  2, 187, 4-Avoidance
+ 33.90,  50,  8, 276, 5-SpatialReasoning
+ 36.65,  51,  7, 229, 6-Generalization
+ 80.98,  30,  0,  91, 7-InternalMemory
+ 67.12,  29,  1, 106, temporary_blackout
+ 33.82,  19, 11, 245, permanent_blackout
+ 36.02,  21,  9, 204, permanent_blackout_with_wall_and_bad_goal
+  5.62,  28,  2, 228, hot_zone
+ 55.09,  22,  0, 158, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ 12.27,  27,  3, 233, objectManipulation
+ 41.67,  24,  6, 154, allObjectsRandom
+ 43.44,  31,  3, 174, overall averages
+
+
+changed to only turn 30 degrees and then to move backwards after sensing a wall
+object manipulation
+total reward for all runs = 12.70, average reward per run = 0.42, total reward count = 27.00
+number of runs with positive reward = 27, number of runs that timed out =  3
+average number of steps until reward = 231.57
+number of forward moves = 1892, neutral moves = 4851, backward moves = 362
+
+3-Obstacles
+total reward for all runs = 23.09, average reward per run = 0.77, total reward count = 29.00
+number of runs with positive reward = 29, number of runs that timed out =  1
+average number of steps until reward = 179.03
+
+number of forward moves = 1101, neutral moves = 3249, backward moves = 1498
+[{'Total': 40.3, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 19.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 892
+[{'Total': 39.7, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 11.0, 'C6': 18.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 903
+
+print("starting wall action sequence")
+                self.wall_turns = 10 #turn left 60 degrees
+                self.wall_moves = 15
+            if wall_in_view == 0:
+                #wall is on the left
+                #if self.red_color_seen:
+                #self.wall_turns = -20 #turn right 120 degrees
+                self.wall_turns = 5  # turn left 30 degrees
+                #print("wall is on the left, moving forward, so we will be turning right")
+                #else:
+                #    self.wall_turns = 5 #we are moving backwards, turn 30 degrees left
+                #    print("wall is on the left, moving backwards, so we will be turning left")
+            elif wall_in_view == 2:
+                #if self.red_color_seen:
+                #self.wall_turns = 15 #turn left 90 degrees
+                self.wall_turns = -5  # turn right 30 degrees
+
+[{'Total': 40.0, 'C1': 26.0, 'C2': 18.0, 'C3': 8.0, 'C4': 9.0, 'C5': 11.0, 'C6': 17.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 913
+
+for the next one, we will turn 30 degrees and move backwards for front walls but go back to what we were doing before for left or right walls
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.87,  30,  0,  86, 1-Food
+133.92,  57,  1,  62, 2-Preferences
+ 21.22,  29,  1, 254, 3-Obstacles
+  0.24,  12,  2, 187, 4-Avoidance
+ 36.76,  52,  7, 257, 5-SpatialReasoning
+ 38.48,  52,  6, 214, 6-Generalization
+ 81.19,  30,  0,  88, 7-InternalMemory
+ 67.12,  29,  1, 106, temporary_blackout
+ 30.06,  18, 12, 252, permanent_blackout
+ 36.03,  21,  9, 204, permanent_blackout_with_wall_and_bad_goal
+  6.44,  28,  2, 224, hot_zone
+ 55.09,  22,  0, 158, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ 10.95,  26,  4, 233, objectManipulation
+ 32.29,  19,  5, 159, allObjectsRandom
+ 42.97,  30,  3, 170, overall averages
+
+        if wall_in_view > 0 and color == 0 and (not obstacle_seen) and (not self.red_color_seen) and self.green_found_on_initial_inspection_radius < 0.01:
+            # we will do a full look around when we get away from the wall
+            self.initial_inspection_steps_completed = 0
+            if wall_in_view == 1:  #if it is in front, we will not take an action, since we do not know which way to turn
+                print("starting wall action sequence")
+                self.wall_turns = 5 #turn left 30 degrees
+                self.wall_moves = -15
+
+            #we are next to a wall, so, if it is on the right or left, do fixed pattern to move away
+            if wall_in_view == 0:
+                #wall is on the left
+                #if self.red_color_seen:
+                self.wall_turns = -20 #turn right 120 degrees
+                self.wall_moves = 10
+                #self.wall_turns = 5  # turn left 30 degrees
+                #print("wall is on the left, moving forward, so we will be turning right")
+                #else:
+                #    self.wall_turns = 5 #we are moving backwards, turn 30 degrees left
+                #    print("wall is on the left, moving backwards, so we will be turning left")
+            elif wall_in_view == 2:
+                #if self.red_color_seen:
+                self.wall_turns = 15 #turn left 90 degrees
+                self.wall_moves = 10
+                #self.wall_turns = -5  # turn right 30 degrees
+                #print("wall is on the right, moving forwards, so we will be turning left")
+                #else:
+                #    self.wall_turns = -5 #we are moving backwards, turn 30 degrees right
+                #    print("wall is on the right, moving backwards, so we will be turning right")
+
+                
+above wall settings plus we wander in blackout even if red is seen
+[{'Total': 40.0, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 11.0, 'C6': 18.0, 'C7': 14.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 871
+
+turn and move with walls and use walls even if red seen:
+
+3-Obstacles
+total reward for all runs = 24.87, average reward per run = 0.83, total reward count = 30.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 150.07
+number of forward moves = 899, neutral moves = 2736, backward moves = 1436
+
+[{'Total': 40.3, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 19.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 892
+[{'Total': 40.0, 'C1': 26.0, 'C2': 18.0, 'C3': 8.0, 'C4': 9.0, 'C5': 11.0, 'C6': 17.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 913
+[{'Total': 38.3, 'C1': 24.0, 'C2': 18.0, 'C3': 7.0, 'C4': 7.0, 'C5': 10.0, 'C6': 18.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 811
+
+we can get to 40.7 with wandering in darkness even if red is seen plus the 40.3 code
+
+new explore:
+[{'Total': 40.0, 'C1': 24.0, 'C2': 19.0, 'C3': 7.0, 'C4': 9.0, 'C5': 12.0, 'C6': 17.0, 'C7': 14.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 914
+new explore gets reset with each episode and only used when obstacles are present
+and obstacles persist for 30 episodes.
+[{'Total': 35.0, 'C1': 25.0, 'C2': 17.0, 'C3': 4.0, 'C4': 7.0, 'C5': 4.0,  'C6': 15.0, 'C7': 16.0, 'C8': 3.0, 'C9': 13.0, 'C10': 1.0}] 860
+got rid of obstacles persisting
+[{'Total': 36.7, 'C1': 25.0, 'C2': 19.0, 'C3': 4.0, 'C4': 9.0, 'C5': 7.0,  'C6': 18.0, 'C7': 14.0, 'C8': 2.0, 'C9': 12.0, 'C10': 0.0}] 932
+
+The declines are likely due to exploring facing forward.
+
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.91,  30,  0,  86, 1-Food
+133.98,  57,  1,  61, 2-Preferences
+ 22.37,  29,  1, 212, 3-Obstacles
+  0.27,  12,  2, 186, 4-Avoidance
+ 33.96,  48,  7, 253, 5-SpatialReasoning
+ 32.58,  47,  9, 238, 6-Generalization
+ 80.97,  30,  0,  91, 7-InternalMemory
+ 67.14,  29,  1, 105, temporary_blackout
+ 39.20,  21,  9, 216, permanent_blackout
+ 25.57,  18,  6, 186, permanent_blackout_with_wall_and_bad_goal
+  7.44,  28,  2, 225, hot_zone
+ 55.09,  22,  0, 158, movingFood
+ 20.85,  30,  0,  73, forcedChoice
+  8.55,  26,  4, 273, objectManipulation
+ 43.46,  24,  7, 144, allObjectsRandom
+ 43.02,  30,  3, 167, overall averages
+
+
+simplified exploring with headbang and tailbang
+5-SpatialReasoning, t=1000
+total reward for all runs = 41.52, average reward per run = 1.38, total reward count = 54.00
+number of runs with positive reward = 25, number of runs that timed out =  5
+average number of steps until reward = 207.41
+
+changed from 10 left turns after bang to this:
+            if previous_action[0] == 1:
+                #headbang
+                self.bang = -1
+                self.turns = 11
+            else:
+                #tailbang
+                self.bang = 1
+                self.turns = 13
+total reward for all runs = 43.53, average reward per run = 1.45, total reward count = 55.00
+number of runs with positive reward = 26, number of runs that timed out =  4
+average number of steps until reward = 190.27
+number of forward moves = 5205, neutral moves = 4286, backward moves = 1898
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.91,  30,  0,  86, 1-Food
+130.98,  55,  2,  64, 2-Preferences
+ 21.70,  28,  2, 201, 3-Obstacles
+-10.97,   0,  0, 172, 4-Avoidance
+ 39.45,  53,  5, 232, 5-SpatialReasoning
+ 39.90,  52,  6, 190, 6-Generalization
+ 81.24,  30,  0,  87, 7-InternalMemory
+ 67.14,  29,  1, 105, temporary_blackout
+ 39.20,  21,  9, 216, permanent_blackout
+ 25.67,  16,  8, 195, permanent_blackout_with_wall_and_bad_goal
+  2.07,  26,  4, 223, hot_zone
+ 50.82,  20,  0, 139, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+  7.69,  25,  5, 270, objectManipulation
+ 25.65,  14,  4, 152, allObjectsRandom
+ 41.02,  29,  3, 160, overall averages
+
+only use explore when red not seen:
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.91,  30,  0,  86, 1-Food
+133.92,  57,  1,  62, 2-Preferences
+ 21.49,  28,  2, 201, 3-Obstacles
+  0.47,  12,  2, 183, 4-Avoidance
+ 39.19,  52,  5, 223, 5-SpatialReasoning
+ 39.98,  52,  6, 189, 6-Generalization
+ 81.24,  30,  0,  87, 7-InternalMemory
+ 67.14,  29,  1, 105, temporary_blackout
+ 39.20,  21,  9, 216, permanent_blackout
+ 21.58,  15,  7, 188, permanent_blackout_with_wall_and_bad_goal
+  7.02,  28,  2, 226, hot_zone
+ 55.09,  22,  0, 158, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ 10.15,  26,  4, 253, objectManipulation
+ 30.10,  20,  7, 174, allObjectsRandom
+ 42.76,  30,  3, 161, overall averages
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.91,  30,  0,  86, 1-Food
+133.92,  57,  1,  62, 2-Preferences
+ 21.49,  28,  2, 201, 3-Obstacles
+  0.47,  12,  2, 183, 4-Avoidance
+ 39.19,  52,  5, 223, 5-SpatialReasoning
+ 39.98,  52,  6, 189, 6-Generalization
+ 81.24,  30,  0,  87, 7-InternalMemory
+ 67.14,  29,  1, 105, temporary_blackout
+ 39.20,  21,  9, 216, permanent_blackout
+ 21.58,  15,  7, 188, permanent_blackout_with_wall_and_bad_goal
+  7.02,  28,  2, 226, hot_zone
+ 55.09,  22,  0, 158, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ 10.15,  26,  4, 253, objectManipulation
+ 30.10,  20,  7, 174, allObjectsRandom
+ 42.76,  30,  3, 161, overall averages
+ anticipating red episodes:
+ number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.91,  30,  0,  86, 1-Food
+133.92,  57,  1,  62, 2-Preferences
+ 21.49,  28,  2, 201, 3-Obstacles
+  0.47,  12,  2, 183, 4-Avoidance
+ 39.19,  52,  5, 223, 5-SpatialReasoning
+ 39.98,  52,  6, 189, 6-Generalization
+ 81.24,  30,  0,  87, 7-InternalMemory
+ 67.14,  29,  1, 105, temporary_blackout
+ 39.20,  21,  9, 216, permanent_blackout
+ 21.58,  15,  7, 188, permanent_blackout_with_wall_and_bad_goal
+  7.02,  28,  2, 226, hot_zone
+ 55.09,  22,  0, 158, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ 10.15,  26,  4, 253, objectManipulation
+ 30.10,  20,  7, 174, allObjectsRandom
+ 42.76,  30,  3, 161, overall averages
+
+ remember obstacles over episodes:
+ number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.91,  30,  0,  86, 1-Food
+133.92,  57,  1,  62, 2-Preferences
+ 19.23,  27,  3, 243, 3-Obstacles
+  0.47,  12,  2, 183, 4-Avoidance
+ 39.19,  52,  5, 223, 5-SpatialReasoning
+ 35.27,  49,  8, 222, 6-Generalization
+ 80.97,  30,  0,  91, 7-InternalMemory
+ 67.14,  29,  1, 105, temporary_blackout
+ 39.20,  21,  9, 216, permanent_blackout
+ 23.16,  16,  8, 180, permanent_blackout_with_wall_and_bad_goal
+  7.02,  28,  2, 226, hot_zone
+ 55.09,  22,  0, 158, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ 13.85,  26,  4, 191, objectManipulation
+ 18.78,  10,  3, 112, allObjectsRandom
+ 41.87,  29,  3, 158, overall averages
+
+move select_action initiale to above episode persistance stuff
+
+ number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.91,  30,  0,  86, 1-Food
+133.92,  57,  1,  62, 2-Preferences
+ 19.23,  27,  3, 243, 3-Obstacles
+  0.27,  12,  2, 186, 4-Avoidance
+ 34.53,  50,  8, 265, 5-SpatialReasoning
+ 35.52,  50,  7, 235, 6-Generalization
+ 80.97,  30,  0,  91, 7-InternalMemory
+ 67.14,  29,  1, 105, temporary_blackout
+ 39.20,  21,  9, 216, permanent_blackout
+ 35.52,  21,  7, 164, permanent_blackout_with_wall_and_bad_goal
+  7.44,  28,  2, 225, hot_zone
+ 55.09,  22,  0, 158, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+  8.32,  25,  5, 260, objectManipulation
+ 30.50,  17,  4, 124, allObjectsRandom
+ 42.83,  30,  3, 166, overall averages
+
+ remember obstacles over episodes
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.91,  30,  0,  86, 1-Food
+133.92,  57,  1,  62, 2-Preferences
+ 19.23,  27,  3, 243, 3-Obstacles
+  0.27,  12,  2, 186, 4-Avoidance
+ 34.53,  50,  8, 265, 5-SpatialReasoning
+ 35.52,  50,  7, 235, 6-Generalization
+ 80.97,  30,  0,  91, 7-InternalMemory
+ 67.14,  29,  1, 105, temporary_blackout
+ 39.20,  21,  9, 216, permanent_blackout
+ 35.52,  21,  7, 164, permanent_blackout_with_wall_and_bad_goal
+  7.44,  28,  2, 225, hot_zone
+ 55.09,  22,  0, 158, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+  8.32,  25,  5, 260, objectManipulation
+ 30.50,  17,  4, 124, allObjectsRandom
+ 42.83,  30,  3, 166, overall averages
+ 
+total reward for all runs = 43.40, average reward per run = 1.45, total reward count = 55.00
+number of runs with positive reward = 26, number of runs that timed out =  4
+average number of steps until reward = 192.39
+number of forward moves = 4828, neutral moves = 4449, backward moves = 2237
+
+[{'Total': 40.3, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 19.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 892
+[{'Total': 38.7, 'C1': 24.0, 'C2': 18.0, 'C3': 5.0, 'C4': 9.0, 'C5': 7.0,  'C6': 19.0, 'C7': 14.0, 'C8': 4.0, 'C9': 16.0, 'C10': 0.0}] 904
+
+
+ do not use explore if obstacle_seen
+ [{'Total': 39.3, 'C1': 24.0, 'C2': 18.0, 'C3': 5.0, 'C4': 9.0, 'C5': 10.0, 'C6': 19.0, 'C7': 15.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 857
+
+
+don't accept green when obstacle seen
+ [{'Total': 39.3, 'C1': 24.0, 'C2': 18.0, 'C3': 6.0, 'C4': 10.0, 'C5': 8.0, 'C6': 19.0, 'C7': 13.0, 'C8': 4.0, 'C9': 16.0, 'C10': 0.0}] 871
+
+ try accepting green early, but not right away when obstacles seen
+
+
+build some better test cases-- 7-InternalMemory with long times, walls, no red, maybe just green
+3-obstacles with more golds, longer times, c5 with more gold
+
+see what accepting green from the start in all cases does to the category scores
+
+
+
+
+
+ 
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.86,  30,  0,  86, 1-Food
+133.92,  57,  1,  62, 2-Preferences
+ 22.85,  30,  0, 222, 3-Obstacles
+  0.47,  12,  2, 183, 4-Avoidance
+ 38.95,  53,  6, 236, 5-SpatialReasoning
+ 35.44,  49,  9, 215, 6-Generalization
+ 81.24,  30,  0,  87, 7-InternalMemory
+ 67.14,  29,  1, 105, temporary_blackout
+ 39.20,  21,  9, 216, permanent_blackout
+ 29.60,  19,  7, 182, permanent_blackout_with_wall_and_bad_goal
+  7.80,  28,  2, 222, hot_zone
+ 55.10,  22,  0, 158, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ 11.28,  27,  3, 251, objectManipulation
+ 33.11,  20,  7, 160, allObjectsRandom
+ 43.39,  30,  3, 164, overall averages
+ 
+should we require at least 2 full look arounds before accepting green?
+
+I think C8 is moving boxes, lets do that next. At the very least, recognize movable objects as obstacles.
+
+forced choice-- small gold vs big green-- take the big green.  Know this based on blue zone.
+
+
+with obstacles, every once in while, turn more
+
+why don't walls help with the scrunching along stuff during obstacle searching-- because walls are turned off when obstacles present
+
+
+DO THIS:
+A lot of times we come out of the initial look around and just bang into a nearby wall.  we should note the wall distances and go toward an open area.
+
+
+do a comparison with original networks
+
+
+we need our obstacles score back to 9.0....
+
+check why we hit red on episode 30 of preferences and why we hit green on episode 1 or 2 or 3
+
+obstacles episode 4 we just go round and round
+
+go backwards until we hit something.
+turn left until we see a wall or the floor gets small
+go backwards until we hit something, verify that velocity is increasing correctly and note the distance.  turn left 90. go to the next corner...
+
+if we see obstacles or red, they will likely be there for the next 30 episodes.
+
+
+maps, 3-Obstacles
+total reward for all runs = 15.56, average reward per run = 0.52, total reward count = 27.00
+number of runs with positive reward = 27, number of runs that timed out =  3
+average number of steps until reward = 371.57
+
+maps with walls and obstacles:
+total reward for all runs = 9.82, average reward per run = 0.33, total reward count = 23.00
+number of runs with positive reward = 23, number of runs that timed out =  7
+average number of steps until reward = 404.20
+
+turned off astar when stuck
+total reward for all runs = 6.35, average reward per run = 0.21, total reward count = 21.00
+number of runs with positive reward = 21, number of runs that timed out =  9
+average number of steps until reward = 471.00
+
+reduced penalty time for astar after stuck and changed stuck routine
+total reward for all runs = 13.64, average reward per run = 0.45, total reward count = 27.00
+number of runs with positive reward = 27, number of runs that timed out =  3
+average number of steps until reward = 417.00
+number of forward moves = 4442, neutral moves = 7137, backward moves = 1723
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.91,  30,  0,  86, 1-Food
+131.32,  55,  2,  60, 2-Preferences
+ 18.07,  30,  0, 389, 3-Obstacles
+  0.75,  10,  0, 147, 4-Avoidance
+ 37.60,  52,  7, 242, 5-SpatialReasoning
+ 29.47,  45, 11, 258, 6-Generalization
+ 59.30,  23,  7, 211, 7-InternalMemory
+ 45.46,  22,  8, 225, temporary_blackout
+ 28.66,  17, 13, 281, permanent_blackout
+ 24.90,  19,  7, 190, permanent_blackout_with_wall_and_bad_goal
+  4.05,  28,  2, 239, hot_zone
+ 56.96,  22,  0, 151, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+  9.21,  25,  5, 245, objectManipulation
+ 23.79,  18,  5, 155, allObjectsRandom
+ 37.62,  28,  4, 197, overall averages
+
+
+ [{'Total': 15.67, 'C1': 23.0, 'C2': 17.0, 'C3': 4.0, 'C4': 3.0, 'C5': 0.0, 'C6': 0.0, 'C7': 0.0, 'C8': 0.0, 'C9': 0.0, 'C10': 0.0}]
+7380 seconds
+
+
+episode 135 oscillation
+current map location: x = 24.11, z = 18.32, yaw degrees = 125.9, action = [1, 2]
+updating gold target values, all colors target list:
+x, z, diameter, color, number of times seen
+target list: x, z, diameter, color, number of times seen
+8.5, 27.5, 1.5, 2, 850
+gold occupancy map target list (x,z):
+18.1, 11.9
+8.9, 29.4
+current map location: x = 24.11, z = 18.32, yaw degrees = 119.9, action = [1, 1]
+updating gold target values, all colors target list:
+x, z, diameter, color, number of times seen
+target list: x, z, diameter, color, number of times seen
+8.5, 27.5, 1.5, 2, 851
+gold occupancy map target list (x,z):
+18.1, 11.9
+8.9, 29.4
+current map location: x = 24.11, z = 18.32, yaw degrees = 125.9, action = [1, 2]
+updating gold target values, all colors target list:
+x, z, diameter, color, number of times seen
+target list: x, z, diameter, color, number of times seen
+8.5, 27.5, 1.5, 2, 852
+gold occupancy map target list (x,z):
+18.1, 11.9
+8.9, 29.4
+current map location: x = 24.11, z = 18.32, yaw degrees = 119.9, action = [1, 1]
+updating gold target values, all colors target list:
+x, z, diameter, color, number of times seen
+target list: x, z, diameter, color, number of times seen
+8.5, 27.5, 1.5, 2, 853
+gold occupancy map target list (x,z):
+18.1, 11.9
+8.9, 29.4
+
+
+1-Food
+total reward for all runs = 73.91, average reward per run = 2.46, total reward count = 30.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 85.53
+number of forward moves = 783, neutral moves = 1881, backward moves =  0
+
+look at 2-Preferences, episode 5, it times out after messing around for a long time avoiding a red ball.
+
+if we have been exploring for a while and our target list is empty, try astar exploration
+[{'Total': 40.3, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 19.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 892
+[{'Total': 28.7, 'C1': 25.0, 'C2': 16.0, 'C3': 6.0, 'C4': 5.0, 'C5': 6.0, 'C6': 17.0, 'C7': 8.0, 'C8': 3.0, 'C9': 0.0, 'C10': 0.0}]
+7357 sec.
+
+[{'Total': 29.3, 'C1': 25.0, 'C2': 18.0, 'C3': 6.0, 'C4': 5.0, 'C5': 5.0, 'C6': 17.0, 'C7': 9.0, 'C8': 3.0, 'C9': 0.0, 'C10': 0.0}]
+7371 sec
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.80,  30,  0,  86, 1-Food
+130.95,  55,  2,  62, 2-Preferences
+ 20.20,  28,  2, 250, 3-Obstacles
+ -1.79,   9,  1, 173, 4-Avoidance
+ 38.11,  52,  5, 242, 5-SpatialReasoning
+ 25.43,  41, 12, 274, 6-Generalization
+ 52.59,  22,  8, 221, 7-InternalMemory
+ 52.62,  24,  6, 217, temporary_blackout
+ 28.96,  18, 12, 277, permanent_blackout
+ 28.76,  19,  7, 177, permanent_blackout_with_wall_and_bad_goal
+  1.19,  27,  3, 240, hot_zone
+ 64.35,  24,  0, 139, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ 10.30,  25,  5, 227, objectManipulation
+ 36.16,  24,  7, 178, allObjectsRandom
+ 38.83,  29,  5, 189, overall averages
+
+ good_score:
+ number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward:
+ 73.35,  30,  0,  90, 1-Food
+132.26,  56,  2,  59, 2-Preferences
+ 15.52,  27,  3, 376, 3-Obstacles
+-12.53,   5,  1, 278, 4-Avoidance
+ 34.80,  51,  7, 277, 5-SpatialReasoning
+ 34.24,  50,  8, 253, 6-Generalization
+ 70.97,  29,  1, 188, 7-InternalMemory
+ 64.39,  30,  0, 159, temporary_blackout
+ 34.04,  18, 12, 300, permanent_blackout
+ 31.64,  21,  9, 233, permanent_blackout_with_wall_and_bad_goal
+  1.53,  28,  2, 329, hot_zone
+ 29.38,  16,  0, 268, movingFood
+ 20.85,  30,  0,  72, forcedChoice
+ -0.63,  23,  7, 381, objectManipulation
+ 21.52,  19, 11, 209, allObjectsRandom
+ 36.76,  29,  4, 232, overall averages
+ [{'Total': 37.0, 'C1': 25.0, 'C2': 14.0, 'C3': 9.0, 'C4': 9.0, 'C5': 10.0, 'C6': 17.0, 'C7': 8.0, 'C8': 4.0, 'C9': 15.0, 'C10': 0.0}] 1261 sec
+ 
+oscillating:
+found a gold target during initial look around
+found a target while looking around, current color =  2
+changed network action from 5 (backward right) to 3 (forward right)
+current map location: x = 40.87, z = 38.32, yaw degrees = 12.0, action = [1, 1]
+target list: x, z, diameter, color, number of times seen
+40.0, 37.1, 1.5, 2, 194
+21.7, 41.5, 15.7, 2, 46
+self.agent_network_action =  3 , action =  [1.0, 1.0] , color =  2 , radius =  41.74336242675781 , centerX =  4 , centerY =  41
+velocity = 0.0, z_velocity = -0.0
+current map location: x = 40.87, z = 38.32, yaw degrees = 6.0, action = [0, 1]
+self.agent_network_action =  4 , action =  [0.0, 1.0] , color =  0 , radius =  0.0 , centerX =  0.0 , centerY =  0.0
+velocity = 0.0, z_velocity = 0.0
+current map location: x = 40.87, z = 38.32, yaw degrees = 12.0, action = [0, 2]
+self.agent_network_action =  0 , action =  [0.0, 2.0] , color =  0 , radius =  0.0 , centerX =  0.0 , centerY =  0.0
+velocity = 0.0, z_velocity = 0.0
+current map location: x = 40.87, z = 38.32, yaw degrees = 18.0, action = [0, 2]
+self.agent_network_action =  0 , action =  [0.0, 2.0] , color =  0 , radius =  0.0 , centerX =  0.0 , centerY =  0.0
+velocity = 0.0, z_velocity = 0.0
+found a gold target during initial look around
+found a target while looking around, current color =  2
+changed network action from 5 (backward right) to 3 (forward right)
+current map location: x = 40.87, z = 38.32, yaw degrees = 12.0, action = [1, 1]
+target list: x, z, diameter, color, number of times seen
+40.0, 37.1, 1.5, 2, 195
+21.7, 41.5, 15.7, 2, 46
+self.agent_network_action =  3 , action =  [1.0, 1.0] , color =  2 , radius =  41.74336242675781 , centerX =  4 , centerY =  41
+velocity = 0.0, z_velocity = -0.0
+current map location: x = 40.87, z = 38.32, yaw degrees = 6.0, action = [0, 1]
+self.agent_network_action =  4 , action =  [0.0, 1.0] , color =  0 , radius =  0.0 , centerX =  0.0 , centerY =  0.0
+velocity = 0.0, z_velocity = 0.0
+current map location: x = 40.87, z = 38.32, yaw degrees = 12.0, action = [0, 2]
+self.agent_network_action =  0 , action =  [0.0, 2.0] , color =  0 , radius =  0.0 , centerX =  0.0 , centerY =  0.0
+velocity = 0.0, z_velocity = 0.0
+current map location: x = 40.87, z = 38.32, yaw degrees = 18.0, action = [0, 2]
+self.agent_network_action =  0 , action =  [0.0, 2.0] , color =  0 , radius =  0.0 , centerX =  0.0 , centerY =  0.0
+velocity = 0.0, z_velocity = 0.0
+found a gold target during initial look around
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+start over with code that scored 40.3
+2-Preferences
+total reward for all runs = 146.60, average reward per run = 4.89, total reward count = 57.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average number of steps until reward = 53.18
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.95,  30,  0,  85, 16.3, 1-Food
+133.92,  57,  1,  62, 21.3, 2-Preferences
+ 17.37,  27,  3, 316, 54.9, 3-Obstacles
+  1.50,  12,  2, 185, 33.2, 4-Avoidance
+ 34.80,  51,  7, 277, 87.5, 5-SpatialReasoning
+ 33.31,  49,  9, 252, 83.8, 6-Generalization
+ 81.25,  30,  0,  87, 12.1, 7-InternalMemory
+ 67.12,  29,  1, 106, 14.7, temporary_blackout
+ 33.82,  19, 11, 245, 23.8, permanent_blackout
+ 36.02,  21,  9, 204, 23.8, permanent_blackout_with_wall_and_bad_goal
+  1.69,  26,  4, 240, 42.2, hot_zone
+ 55.08,  22,  0, 158, 27.4, movingFood
+ 20.85,  30,  0,  72, 12.9, forcedChoice
+ 12.38,  27,  3, 231, 40.1, objectManipulation
+ 39.72,  23,  6, 157, 42.2, allObjectsRandom
+ 42.85,  30,  4, 178, 35.7, overall averages
+
+
+create new code with sizes, but disable sizes to check and be sure it still works like the old code.
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.95,  30,  0,  85, 17.8, 1-Food
+133.92,  57,  1,  62, 31.4, 2-Preferences
+ 17.37,  27,  3, 316, 61.6, 3-Obstacles
+  1.50,  12,  2, 185, 44.6, 4-Avoidance
+ 34.80,  51,  7, 277, 96.8, 5-SpatialReasoning
+ 33.31,  49,  9, 252, 110.1, 6-Generalization
+ 81.25,  30,  0,  87, 13.9, 7-InternalMemory
+ 67.12,  29,  1, 106, 15.8, temporary_blackout
+ 33.82,  19, 11, 245, 25.5, permanent_blackout
+ 36.02,  21,  9, 204, 27.7, permanent_blackout_with_wall_and_bad_goal
+  1.69,  26,  4, 240, 46.9, hot_zone
+ 55.08,  22,  0, 158, 31.1, movingFood
+ 20.85,  30,  0,  72, 15.6, forcedChoice
+ 12.38,  27,  3, 231, 46.1, objectManipulation
+ 39.72,  23,  6, 157, 48.7, allObjectsRandom
+ 42.85,  30,  4, 178, 42.2, overall averages
+ [{'Total': 40.3, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 19.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 892
+THE ABOVE VALUES ARE OUR NEW BASELINE.  Use agent_sizes.py to generate that result
+
+
+
+
+sizes still disabled
+try remembering that the previous episode had blackouts or there was a blackout within 6 episodes of the past:
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.92,  30,  0,  85, 18.2, 1-Food
+133.58,  57,  1,  63, 25.1, 2-Preferences
+ 17.37,  27,  3, 316, 56.4, 3-Obstacles
+  1.50,  12,  2, 185, 35.4, 4-Avoidance
+ 34.80,  51,  7, 277, 96.8, 5-SpatialReasoning
+ 32.07,  48, 10, 256, 102.8, 6-Generalization
+ 82.13,  30,  0,  72, 11.2, 7-InternalMemory
+ 67.86,  29,  1,  94, 14.2, temporary_blackout
+ 40.77,  22,  8, 186, 20.4, permanent_blackout
+ 36.44,  21,  9, 197, 24.0, permanent_blackout_with_wall_and_bad_goal
+  2.21,  26,  4, 240, 44.7, hot_zone
+ 55.08,  22,  0, 158, 30.5, movingFood
+ 20.83,  30,  0,  72, 14.7, forcedChoice
+ 12.39,  27,  3, 231, 44.8, objectManipulation
+ 32.09,  20,  8, 176, 52.4, allObjectsRandom
+ 42.87,  30,  4, 174, 39.4, overall averages
+
+[{'Total': 41.7, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 18.0, 'C7': 17.0, 'C8': 3.0, 'C9': 16.0, 'C10': 0.0}] 875.01
+[{'Total': 40.3, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 19.0, 'C7': 13.0, 'C8': 3.0, 'C9': 15.0, 'C10': 0.0}] 892
+
+
+enable sizes, along with this blackout
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.84,  30,  0,  86, 18.7, 1-Food
+137.41,  58,  0,  62, 26.2, 2-Preferences
+ 17.38,  27,  3, 316, 61.2, 3-Obstacles
+  1.50,  12,  2, 185, 35.3, 4-Avoidance
+ 34.80,  51,  7, 277, 93.4, 5-SpatialReasoning
+ 33.15,  49,  9, 255, 88.5, 6-Generalization
+ 82.13,  30,  0,  72, 12.2, 7-InternalMemory
+ 67.86,  29,  1,  94, 15.3, temporary_blackout
+ 40.77,  22,  8, 186, 19.6, permanent_blackout
+ 36.45,  21,  9, 197, 23.4, permanent_blackout_with_wall_and_bad_goal
+  2.12,  26,  4, 241, 43.6, hot_zone
+ 55.26,  22,  0, 155, 29.0, movingFood
+ 20.85,  30,  0,  72, 14.2, forcedChoice
+ 12.38,  27,  3, 231, 42.7, objectManipulation
+ 31.91,  20,  6, 163, 47.7, allObjectsRandom
+ 43.19,  30,  3, 173, 38.1, overall averages
+
+[{'Total': 41.7, 'C1': 25.0, 'C2': 16.0, 'C3': 7.0, 'C4': 9.0, 'C5': 12.0, 'C6': 19.0, 'C7': 18.0, 'C8': 3.0, 'C9': 16.0, 'C10': 0.0}]
+reduces C2 and c3, increases c6 and c7
+
+sizes on:
+green of different sizes:
+total reward for all runs = 129.87, average reward per run = 4.33, total reward count = 29.00
+number of runs with positive reward = 29, number of runs that timed out =  1
+average time taken by episodes = 0.6: 
+average number of steps until reward = 88.07
+number of forward moves = 762, neutral moves = 1892, backward moves = 62
+
+sizes off:
+total reward for all runs = 135.51, average reward per run = 4.52, total reward count = 30.00
+number of runs with positive reward = 30, number of runs that timed out =  0
+average time taken by episodes = 0.6: 
+average number of steps until reward = 82.77
+number of forward moves = 582, neutral moves = 1972, backward moves =  2
+
+
+no longer stop backward right moves:
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.74,  30,  0,  87, 18.9, 1-Food
+137.17,  58,  0,  63, 24.3, 2-Preferences
+ 17.99,  27,  3, 295, 51.1, 3-Obstacles
+  0.15,  11,  1, 174, 32.0, 4-Avoidance
+ 33.15,  50,  8, 289, 94.3, 5-SpatialReasoning
+ 30.74,  47, 11, 262, 92.4, 6-Generalization
+ 82.10,  30,  0,  72, 11.0, 7-InternalMemory
+ 68.93,  30,  0,  84, 12.6, temporary_blackout
+ 40.77,  22,  8, 186, 19.8, permanent_blackout
+ 32.55,  20, 10, 209, 24.3, permanent_blackout_with_wall_and_bad_goal
+  3.93,  27,  3, 238, 43.2, hot_zone
+ 55.19,  22,  0, 157, 29.3, movingFood
+ 20.85,  30,  0,  72, 14.3, forcedChoice
+ 12.46,  27,  3, 230, 42.7, objectManipulation
+ 55.13,  29,  5, 146, 45.2, allObjectsRandom
+ 44.32,  31,  3, 171, 37.0, overall averages
+
+re-instate stopping backward right moves
+use only strict boundaries
+
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.84,  30,  0,  86, 18.3, 1-Food
+137.42,  58,  0,  62, 24.7, 2-Preferences
+ 17.33,  27,  3, 317, 59.2, 3-Obstacles
+  0.50,  12,  2, 185, 42.7, 4-Avoidance
+ 34.88,  51,  7, 276, 106.3, 5-SpatialReasoning
+ 37.48,  53,  6, 246, 95.8, 6-Generalization
+ 81.75,  30,  0,  78, 11.6, 7-InternalMemory
+ 68.57,  30,  0,  90, 13.3, temporary_blackout
+ 48.45,  24,  6, 160, 19.8, permanent_blackout
+ 37.86,  22,  8, 183, 27.7, permanent_blackout_with_wall_and_bad_goal
+ -0.32,  25,  5, 249, 46.4, hot_zone
+ 55.27,  22,  0, 155, 30.2, movingFood
+ 20.73,  30,  0,  73, 14.5, forcedChoice
+ 12.71,  27,  3, 225, 43.5, objectManipulation
+ 27.16,  18,  5, 163, 47.9, allObjectsRandom
+ 43.58,  31,  3, 170, 40.1, overall averages
+
+[{'Total': 41.3, 'C1': 25.0, 'C2': 17.0, 'C3': 7.0, 'C4': 9.0, 'C5': 12.0, 'C6': 18.0, 'C7': 17.0, 'C8': 3.0, 'C9': 16.0, 'C10': 0.0}] 875.14
+increase in C2, decrease in C6 and c7
+
+use only relaxed boundaries:
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+-20.37,   2, 28, 237, 51.7, 1-Food
+ -2.00,   8, 26, 192, 49.4, 2-Preferences
+-13.28,  11, 19, 804, 142.1, 3-Obstacles
+-33.29, -12, 14, 337, 61.3, 4-Avoidance
+-21.10,   8, 28, 804, 169.0, 5-SpatialReasoning
+-18.01,  12, 30, 690, 185.1, 6-Generalization
+ -6.27,   6, 24, 444, 63.1, 7-InternalMemory
+-21.31,   2, 28, 476, 66.1, temporary_blackout
+  4.53,   8, 22, 398, 39.9, permanent_blackout
+-29.93,   1, 27, 463, 52.7, permanent_blackout_with_wall_and_bad_goal
+-32.35,   4, 26, 460, 88.8, hot_zone
+-14.37,  -1, 17, 358, 68.5, movingFood
+ 20.73,  30,  0,  73, 15.5, forcedChoice
+-26.85,   3, 27, 480, 100.8, objectManipulation
+-22.62,   0, 10, 244, 66.1, allObjectsRandom
+-15.77,   5, 22, 431, 81.4, overall averages
+
+
+we go back to mixed strict and relaxed boundaries
+Now, reset green after getting gold reward by uncommenting:
+self.select_action.green_found_on_initial_inspection_radius = 0.0
+self.select_action.green_found_on_initial_inspection = 0
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.84,  30,  0,  86, 18.6, 1-Food
+137.41,  58,  0,  62, 24.1, 2-Preferences
+ 17.38,  27,  3, 316, 58.8, 3-Obstacles
+  1.50,  12,  2, 185, 37.0, 4-Avoidance
+ 34.80,  51,  7, 277, 96.9, 5-SpatialReasoning
+ 33.15,  49,  9, 255, 92.8, 6-Generalization
+ 82.13,  30,  0,  72, 11.4, 7-InternalMemory
+ 67.86,  29,  1,  94, 14.0, temporary_blackout
+ 40.77,  22,  8, 186, 19.7, permanent_blackout
+ 36.45,  21,  9, 197, 23.1, permanent_blackout_with_wall_and_bad_goal
+  2.12,  26,  4, 241, 43.3, hot_zone
+ 55.26,  22,  0, 155, 29.6, movingFood
+ 20.85,  30,  0,  72, 14.8, forcedChoice
+ 12.38,  27,  3, 231, 45.8, objectManipulation
+ 31.91,  20,  6, 163, 50.4, allObjectsRandom
+ 43.19,  30,  3, 173, 38.7, overall averages
+
+
+
+
+
+add hotzone code:
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.84,  30,  0,  86, 18.4, 1-Food
+137.41,  58,  0,  62, 24.5, 2-Preferences
+ 17.38,  27,  3, 316, 61.6, 3-Obstacles
+  1.50,  12,  2, 185, 37.0, 4-Avoidance
+ 34.80,  51,  7, 277, 107.3, 5-SpatialReasoning
+ 35.27,  50,  8, 235, 86.8, 6-Generalization
+ 81.87,  30,  0,  76, 11.9, 7-InternalMemory
+ 67.86,  29,  1,  94, 14.3, temporary_blackout
+ 48.02,  24,  6, 150, 17.7, permanent_blackout
+ 37.66,  22,  8, 186, 23.7, permanent_blackout_with_wall_and_bad_goal
+  7.55,  27,  3, 229, 47.5, hot_zone
+ 55.26,  22,  0, 155, 35.4, movingFood
+ 20.85,  30,  0,  72, 16.4, forcedChoice
+ 14.99,  28,  2, 204, 43.7, objectManipulation
+ 29.22,  23,  6, 170, 57.9, allObjectsRandom
+ 44.23,  31,  3, 167, 40.3, overall averages
+[{'Total': 42.0, 'C1': 25.0, 'C2': 16.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 18.0, 'C7': 18.0, 'C8': 4.0, 'C9': 16.0, 'C10': 0.0}] 871.6
+compared to:
+[{'Total': 42.0, 'C1': 25.0, 'C2': 16.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 18.0, 'C7': 18.0, 'C8': 4.0, 'C9': 16.0, 'C10': 0.0}] 921.5
+
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.84,  30,  0,  86, 18.2, 1-Food
+137.41,  58,  0,  62, 23.3, 2-Preferences
+ 17.38,  27,  3, 316, 55.0, 3-Obstacles
+  1.50,  12,  2, 185, 34.1, 4-Avoidance
+ 34.80,  51,  7, 277, 90.8, 5-SpatialReasoning
+ 35.24,  50,  8, 236, 83.5, 6-Generalization
+ 81.87,  30,  0,  76, 11.3, 7-InternalMemory
+ 67.86,  29,  1,  94, 13.5, temporary_blackout
+ 49.84,  25,  5, 145, 16.6, permanent_blackout
+ 36.45,  21,  9, 197, 23.6, permanent_blackout_with_wall_and_bad_goal
+  1.86,  26,  4, 244, 44.0, hot_zone
+ 55.26,  22,  0, 155, 29.1, movingFood
+ 20.85,  30,  0,  72, 14.5, forcedChoice
+ 15.08,  28,  2, 203, 38.4, objectManipulation
+ 32.78,  21,  6, 169, 48.9, allObjectsRandom
+ 44.14,  31,  3, 168, 36.3, overall averages
+[{'Total': 42.0, 'C1': 25.0, 'C2': 16.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 18.0, 'C7': 18.0, 'C8': 4.0, 'C9': 16.0, 'C10': 0.0}] 874.28
+
+
+new wandering: submitted to optional phase
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.84,  30,  0,  86, 20.6, 1-Food
+137.41,  58,  0,  62, 26.8, 2-Preferences
+ 19.03,  28,  2, 294, 58.8, 3-Obstacles
+  1.50,  12,  2, 185, 36.6, 4-Avoidance
+ 34.80,  51,  7, 277, 94.9, 5-SpatialReasoning
+ 33.50,  49,  9, 249, 92.4, 6-Generalization
+ 81.78,  30,  0,  78, 12.0, 7-InternalMemory
+ 67.96,  29,  1,  92, 14.2, temporary_blackout
+ 64.25,  28,  2,  97, 12.9, permanent_blackout
+ 33.01,  20,  6, 173, 23.0, permanent_blackout_with_wall_and_bad_goal
+  6.53,  27,  3, 208, 39.5, hot_zone
+ 55.26,  22,  0, 155, 30.2, movingFood
+ 20.85,  30,  0,  72, 14.9, forcedChoice
+ 13.49,  27,  3, 212, 41.2, objectManipulation
+ 32.02,  20,  6, 163, 50.2, allObjectsRandom
+ 45.02,  31,  3, 160, 37.9, overall averages
+ [{'Total': 42.0, 'C1': 25.0, 'C2': 16.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 19.0, 'C7': 17.0, 'C8': 4.0, 'C9': 16.0, 'C10': 0.0}] 1197
+
+
+red throttling at 12, no headbang;
+
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.84,  30,  0,  86, 18.5, 1-Food
+134.93,  57,  1,  64, 33.6, 2-Preferences
+ 19.03,  28,  2, 294, 63.6, 3-Obstacles
+ -0.69,  11,  3, 205, 44.2, 4-Avoidance
+ 34.27,  51,  7, 287, 102.9, 5-SpatialReasoning
+ 33.50,  49,  9, 249, 98.3, 6-Generalization
+ 81.78,  30,  0,  78, 11.9, 7-InternalMemory
+ 67.96,  29,  1,  92, 17.4, temporary_blackout
+ 64.25,  28,  2,  97, 15.0, permanent_blackout
+ 32.97,  20,  6, 174, 24.2, permanent_blackout_with_wall_and_bad_goal
+  6.87,  26,  4, 208, 41.7, hot_zone
+ 55.02,  22,  0, 159, 33.4, movingFood
+ 20.85,  30,  0,  72, 15.4, forcedChoice
+ 13.49,  27,  3, 212, 43.5, objectManipulation
+ 36.22,  21,  5, 152, 56.7, allObjectsRandom
+ 44.95,  31,  3, 162, 41.4, overall averages
+ [{'Total': 41.0, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 17.0, 'C7': 17.0, 'C8': 2.0, 'C9': 16.0, 'C10': 0.0}] 828
+
+do headbang behavior in wandering:
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.84,  30,  0,  86, 18.5, 1-Food
+137.41,  58,  0,  62, 26.1, 2-Preferences
+ 19.03,  28,  2, 294, 66.5, 3-Obstacles
+  1.50,  12,  2, 185, 39.1, 4-Avoidance
+ 34.80,  51,  7, 277, 93.5, 5-SpatialReasoning
+ 33.50,  49,  9, 249, 92.9, 6-Generalization
+ 81.78,  30,  0,  78, 11.7, 7-InternalMemory
+ 67.96,  29,  1,  92, 13.8, temporary_blackout
+ 64.25,  28,  2,  97, 13.1, permanent_blackout
+ 33.01,  20,  6, 173, 22.5, permanent_blackout_with_wall_and_bad_goal
+  6.53,  27,  3, 208, 38.9, hot_zone
+ 55.26,  22,  0, 155, 29.8, movingFood
+ 20.85,  30,  0,  72, 14.6, forcedChoice
+ 13.49,  27,  3, 212, 40.7, objectManipulation
+ 32.02,  20,  6, 163, 49.7, allObjectsRandom
+ 45.02,  31,  3, 160, 38.1, overall averages
+
+throttle when red in view:
+number of episodes = 30
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.84,  30,  0,  86, 18.8, 1-Food
+133.51,  56,  1,  67, 26.4, 2-Preferences
+ 19.03,  28,  2, 294, 57.1, 3-Obstacles
+  1.50,  15,  5, 235, 45.4, 4-Avoidance
+ 34.27,  51,  7, 287, 105.3, 5-SpatialReasoning
+ 33.50,  49,  9, 249, 98.7, 6-Generalization
+ 81.78,  30,  0,  78, 12.1, 7-InternalMemory
+ 67.96,  29,  1,  92, 13.9, temporary_blackout
+ 64.25,  28,  2,  97, 12.9, permanent_blackout
+ 32.92,  20,  6, 174, 24.6, permanent_blackout_with_wall_and_bad_goal
+  9.23,  27,  3, 203, 42.3, hot_zone
+ 54.51,  22,  0, 168, 37.8, movingFood
+ 20.85,  30,  0,  72, 17.1, forcedChoice
+ 13.49,  27,  3, 212, 44.0, objectManipulation
+ 33.84,  24,  8, 185, 62.7, allObjectsRandom
+ 44.96,  31,  3, 167, 41.3, overall averages
+ [{'Total': 41.0, 'C1': 25.0, 'C2': 17.0, 'C3': 7.0, 'C4': 8.0, 'C5': 12.0, 'C6': 19.0, 'C7': 18.0, 'C8': 2.0, 'C9': 15.0, 'C10': 0.0}] 905.61
+
+
+change throttle threshold from 8 to 12:
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, time taken:
+ 73.84,  30,  0,  86, 17.8, 1-Food
+134.93,  57,  1,  64, 25.0, 2-Preferences
+ 19.03,  28,  2, 294, 54.2, 3-Obstacles
+ -0.69,  11,  3, 205, 38.9, 4-Avoidance
+ 34.27,  51,  7, 287, 96.2, 5-SpatialReasoning
+ 33.50,  49,  9, 249, 92.5, 6-Generalization
+ 81.78,  30,  0,  78, 13.1, 7-InternalMemory
+ 67.96,  29,  1,  92, 20.5, temporary_blackout
+ 64.25,  28,  2,  97, 14.9, permanent_blackout
+ 32.97,  20,  6, 174, 27.8, permanent_blackout_with_wall_and_bad_goal
+  6.87,  26,  4, 208, 38.9, hot_zone
+ 55.02,  22,  0, 159, 31.2, movingFood
+ 20.85,  30,  0,  72, 15.0, forcedChoice
+ 13.49,  27,  3, 212, 40.6, objectManipulation
+ 36.22,  21,  5, 152, 47.9, allObjectsRandom
+ 44.95,  31,  3, 162, 38.3, overall averages
+ [{'Total': 41.0, 'C1': 25.0, 'C2': 17.0, 'C3': 8.0, 'C4': 9.0, 'C5': 12.0, 'C6': 17.0, 'C7': 17.0, 'C8': 2.0, 'C9': 16.0, 'C10': 0.0}] 856.88
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+TO DO:
+reduce velocities when self.red_color_seen
+try better stuck behavior, ? better headbang behavior?
+try accepting green early, but not right away when obstacles seen
+
+build some better test cases-- 7-InternalMemory with long times, walls, no red, maybe just green
+3-obstacles with more golds, longer times, c5 with more gold
+
+see what accepting green from the start in all cases does to the category scores

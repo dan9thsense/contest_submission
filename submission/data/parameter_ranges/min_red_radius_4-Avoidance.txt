@@ -1,0 +1,19 @@
+parameter being varied is: min_red_radius, range goes from 1.00 to 31.00, number of episodes = 30, config: 4-Avoidance
+total_reward, total_reward_count, num_runs_that_timed_out, average_number_of_steps_until_reward, min_red_radius
+ -6.30,  10,  6, 254, 1.00
+ -5.83,   8,  2, 217, 3.00
+ -6.50,   7,  3, 213, 5.00
+-13.16,   3,  7, 261, 7.00
+-11.54,   4,  4, 255, 9.00
+ -7.79,   6,  2, 222, 11.00
+ -3.44,  10,  0, 214, 13.00
+-11.72,   0,  0, 186, 15.00
+-13.30,   1,  1, 229, 17.00
+-23.11, -12,  0, 177, 19.00
+-18.54,  -7,  1, 184, 21.00
+-15.57,  -4,  0, 192, 23.00
+-23.81, -14,  0, 155, 25.00
+-15.19,  -4,  0, 177, 27.00
+-17.17,  -8,  0, 144, 29.00
+-18.28, -10,  0, 130, 31.00
+-13.20,  -1,  2, 201, 15.50, overall averages
